@@ -103,6 +103,8 @@
 - Copilot locale을 검색하고, 'ko'로 변경합니다.<br>
     <img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" />
 
+- Experimental 기능인 `NES(Next Edit Suggestion)`을 활성화/비활성화 해봅니다.<br>
+    <img width="672" height="282" alt="image" src="https://github.com/user-attachments/assets/4425799a-bd33-41dc-a9ef-3716ce78e163" />
 
 - Code완성 기능의 기본 모델을 변경해 봅니다.<br>
   - 상단의 Copilot 아이콘을 클릭하고, `Configure Code completion`을 선택합니다.<br>
@@ -111,11 +113,12 @@
   - 'Change completion model'을 선택합니다.<br>
     <img width="296" height="183" alt="image" src="https://github.com/user-attachments/assets/56c9f3e3-90ca-4b54-be34-bdd7ed6c6f44" /> <br>
 
-  - 모델을 변경합니다.<br>
-    <img src = "img/13.png" width = "400">
+  - 모델을 변경할수 있습니다. (권한에 따라 보이는 모델은 다릅니다) <br>
+    <img width="420" height="132" alt="image" src="https://github.com/user-attachments/assets/9f2b1a9f-4680-4887-a79f-212990c977fd" />
 
-- Experimental 기능인 `NES(Next Edit Suggestion)`을 활성화/비활성화 해봅니다.<br>
-    <img src = "img/14.png" width = "400">
+
+
+
 
 - Reference : [VS Code Copilot settings reference 문서](https://code.visualstudio.com/docs/copilot/copilot-settings)
 
