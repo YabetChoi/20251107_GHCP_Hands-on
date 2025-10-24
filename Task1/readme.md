@@ -23,9 +23,10 @@
 
 - 회색으로 제안된 코드를 확인하고, Tab키를 눌러서 코드를 완성합니다.<br>
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" />
-  
+
+  <br>
 **참고:** <br>
-- 제안되는 리스트 목록을 확인하는 Ctrl + Enter 단축키를 설정하기 위해 아래와 같이 진행합니다. <br>
+- 제안되는 리스트 목록을 확인하기 위해 Github Copilot Suggestion을 단축키를 통해 설정합니다. <br>
 - 버전 업데이트가 진행되면서, 메뉴의 위치나 기능에 변경이 발생 할 수 있습니다. <br>
 
 - 상단의 Copilot 아이콘을 클릭하고, `Configure Code completion`을 선택합니다.<br>
@@ -47,15 +48,20 @@
   `# 소수 판별 함수`<br>
 
 - (코드를 수락하지 않은 상태에서) Ctrl + Enter를 눌러서 제안되는 리스트를 확인합니다.<br>
-  <img src = "img/05.png" width = "500"> <br>
+  <img width="668" height="289" alt="image" src="https://github.com/user-attachments/assets/d415a422-5cea-41db-bb2b-39fc4d8629aa" />
+
+- 파이썬 코드 동작하는지 수행해봅니다. <br>
+<img width="636" height="358" alt="image" src="https://github.com/user-attachments/assets/cab1300f-d06c-49a6-af58-54a65d0968dc" />
+
 ## Step 2 : Copilot Log 확인하기
 - VS Code 하단 터미널 창 부분의 `OUTPUT` 탭에서 `GitHub Copilot`, `GitHub Copilot Chat` 에서 Copilot 관련 로그를 확인할 수 있습니다.<br>
-  <img src = "img/25.png" width = "400"> <br>
-  <img src = "img/28.png" width = "600"> <br>
+<img width="700" height="201" alt="image" src="https://github.com/user-attachments/assets/eaea1b10-a087-448a-9a3a-c29527dc5a59" />
+
 
 - GitHub Copilot 혹은 GitHub Copilot Chat 을 선택해 로그를 확인합니다. <br>
-  <img src = "img/29.png" width = "400">
-  <img src = "img/30.png" width = "400">
+<img width="749" height="201" alt="image" src="https://github.com/user-attachments/assets/0540ccc8-4710-48f6-8a46-f376d4fd33e3" />
+<img width="749" height="200" alt="image" src="https://github.com/user-attachments/assets/36f08e92-839a-4e3a-8b9d-78344423f86d" />
+
 
 - 만약, 제안되는 코드에서 오픈소스와 매치되는 부분이 있다면, `GitHub Copilot Log(Code References)`에서 관련 로그를 볼 수 있습니다.  `// 소수 판별함수`'제안 받을 때, 이 부분에서 오픈소스의 레퍼런스 정보를 확인할 수 있습니다. <br>
 - 다만, 이것은 GitHub Copilot 관리자가 오픈소스 매치되는 코드를 제안받지 않겠다고 설정하면, 로그를 볼 수 없습니다. <br>
