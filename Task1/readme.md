@@ -49,7 +49,7 @@
 
 - (코드를 수락하지 않은 상태에서) Ctrl + Enter를 눌러서 제안되는 리스트를 확인합니다.<br>
   <img width="668" height="289" alt="image" src="https://github.com/user-attachments/assets/d415a422-5cea-41db-bb2b-39fc4d8629aa" />
-
+- Accept Suggestions n을 선택하여 반영합니다.
 - 파이썬 코드 동작하는지 수행해봅니다. <br>
 <img width="636" height="358" alt="image" src="https://github.com/user-attachments/assets/cab1300f-d06c-49a6-af58-54a65d0968dc" />
 
@@ -65,15 +65,22 @@
 
 - 만약, 제안되는 코드에서 오픈소스와 매치되는 부분이 있다면, `GitHub Copilot Log(Code References)`에서 관련 로그를 볼 수 있습니다.  `// 소수 판별함수`'제안 받을 때, 이 부분에서 오픈소스의 레퍼런스 정보를 확인할 수 있습니다. <br>
 - 다만, 이것은 GitHub Copilot 관리자가 오픈소스 매치되는 코드를 제안받지 않겠다고 설정하면, 로그를 볼 수 없습니다. <br>
-  <img src = "img/15.png" width = "800"> <br>
+<img width="700" height="1168" alt="image" src="https://github.com/user-attachments/assets/2a829dd5-e75b-4a71-a5a5-9a744d2973f1" />
+
 
 ## Step 3 : 오른 마우스 Copilot 메뉴 사용하기
-- 마우스 오른 버튼을 클릭하여, 'Copilot' 메뉴의 'generate_test'를 선택합니다.<br>
-    <img src = "img/06.png" width = "500">
+- 마우스 오른 버튼을 클릭하여, 'Generate Code' 메뉴의 'generate_test'를 선택합니다.<br>
+<img width="500" height="558" alt="image" src="https://github.com/user-attachments/assets/777619a0-381d-4e24-b34a-ec0c867656c3" /> <br>
+- 테스트 수행할수 있는 스크립트를 자동 생성해줍니다.<br>
+<img width="700" height="415" alt="image" src="https://github.com/user-attachments/assets/7c0ebe1d-4253-4223-affa-bf6f56996fd5" /> <br>
+-동작 정상 확인 <br>
+<img width="700" height="707" alt="image" src="https://github.com/user-attachments/assets/a60d8769-29e9-4b6b-ad53-ed843dc618a6" /><br>
 
-- 마우스 오른 버튼을 클릭하여 'Copilot' 메뉴의 'generate_docs'를 선택합니다.<br>
-    <img src = "img/07.png" width = "500"> 
-    <img src = "img/08.png" width = "500">
+
+- 마우스 오른 버튼을 클릭하여 'Generate Code' 메뉴의 'generate_docs'를 선택합니다.<br>
+주석이 생긴것을 확인하고 Accept! <br>
+<img width="442" height="463" alt="image" src="https://github.com/user-attachments/assets/747e48fe-fa66-4fcf-a8dc-5068a2c5ae04" /> <br>
+
 
 
 ## Step 4 : 코드 완성 기능의 컨텍스트 이해하기
