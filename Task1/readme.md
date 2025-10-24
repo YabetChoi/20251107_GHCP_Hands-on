@@ -98,15 +98,19 @@
 
 ## Step 5 : VS Code의 Copilot 설정 메뉴
 - VS Code에서 Ctrl + Shift + P를 눌러 명령 팔레트를 열고, 'preference'을 검색하여, `Preference: Open Settings (UI)`를 선택합니다.<br>
-    <img src = "img/09.png" width = "500">
+    <img width="527" height="301" alt="image" src="https://github.com/user-attachments/assets/3b23d8ae-82c2-430c-8b77-3481cb5f6f94" />
+
 - Copilot locale을 검색하고, 'ko'로 변경합니다.<br>
-    <img src = "img/10.png" width = "500">
+    <img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" />
+
 
 - Code완성 기능의 기본 모델을 변경해 봅니다.<br>
   - 상단의 Copilot 아이콘을 클릭하고, `Configure Code completion`을 선택합니다.<br>
-    <img src = "img/11.png" width = "400">
+   <img width="662" height="186" alt="image" src="https://github.com/user-attachments/assets/8a3dc99c-4df5-477e-96cf-63026e795288" />
+
   - 'Change completion model'을 선택합니다.<br>
-    <img src = "img/12.png" width = "400">
+    <img width="296" height="183" alt="image" src="https://github.com/user-attachments/assets/56c9f3e3-90ca-4b54-be34-bdd7ed6c6f44" /> <br>
+
   - 모델을 변경합니다.<br>
     <img src = "img/13.png" width = "400">
 
