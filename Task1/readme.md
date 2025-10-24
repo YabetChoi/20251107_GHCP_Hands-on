@@ -10,40 +10,44 @@
 - VS Code의 Copilot 메뉴에 관한 기본적인 설정들을 변경해 봅니다.
 
 ## Step 1 : 기본 함수 작성
-- VS Code를 열고, 새로운 파일을 생성합니다. (factorial.py)<br>
-  <img src = "img/01.png" width = "400">
+- VS Code를 열고, 실습을 진행할 디렉토리를 생성(Open Folder), 새로운 파일을 생성합니다. <br>
+<img width="352" height="299" alt="image" src="https://github.com/user-attachments/assets/0db4f3a0-4876-457f-98ce-cdfbbefd90a2" /> <br>
+- 파일을 생성 (factorial.py)<br>
+  <img width="295" height="269" alt="image" src="https://github.com/user-attachments/assets/29e8a59b-9bec-4c50-a225-ac22f7f78497" />
+
 
 - 아래의 주석을 입력 합니다.<br>
   `# 팩토리얼 함수 `<br>
-  <img src = "img/02.png" width = "400">
+<img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/874f68a8-0a1f-4dec-ba0f-0b1fbec31a21" /> <br>
+반응이 없을시 스페이스 또는 . 을 눌러서 Copilot이 깨어나도록 해주세요
 
 - 회색으로 제안된 코드를 확인하고, Tab키를 눌러서 코드를 완성합니다.<br>
-   <img src = "img/03.png" width = "400">
-
-- 제안된 코드 위에 마우스를 올려 가능한 옵션을 확인합니다.<br>
-    <img src = "img/04.png" width = "400">
-
-- 두번째로 아래 주석을 입력합니다.<br>
-  `# 소수 판별 함수`<br>
-
-- 회색으로 제안된 상태에서, (코드를 수락하지 않은 상태에서) Ctrl + Enter를 눌러서 제안되는 리스트를 확인합니다.<br>
-  <img src = "img/05.png" width = "500"> <br>
+<img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" />
   
 **참고:** <br>
-- 제안되는 리스트 목록을 확인하는 Ctrl + Enter 키에 변경 내용이 있어, 이를 확인하려면 아래와 같이 진행합니다. <br>
-- 이렇듯, 버전 업데이트가 진행되면서, 메뉴의 위치나 기능에 변경이 발생 할 수 있습니다. <br>
+- 제안되는 리스트 목록을 확인하는 Ctrl + Enter 단축키를 설정하기 위해 아래와 같이 진행합니다. <br>
+- 버전 업데이트가 진행되면서, 메뉴의 위치나 기능에 변경이 발생 할 수 있습니다. <br>
 
 - 상단의 Copilot 아이콘을 클릭하고, `Configure Code completion`을 선택합니다.<br>
-<img src = "img/19.png" width = "300"> <br>
+<img width="782" height="189" alt="image" src="https://github.com/user-attachments/assets/c884e16e-88c2-4778-b350-c98da315c0ba" />
+
 - 'Open Completions Panel'을 선택합니다.<br>
-<img src = "img/20.png" width = "300"> <br>
+<img width="328" height="221" alt="image" src="https://github.com/user-attachments/assets/76befbaa-f8f7-400c-ba02-4ba5343d228a" />
+
+  
 - 단축키를 설정할 수 있습니다. <br>
 - `Ctrl + Shift + P`를 눌러 명령 팔레트를 열고 '`GitHub Copilot: Open Completions Panel`' 우측의 톱니바퀴 모양을 눌러 키보드 단축키 설정으로 이동합니다.<br>
-<img src = "img/22.png" width = "400"> <br>
-- 왼편의 '+' 버튼을 눌러 단축키를 설정합니다.<br>
-<img src = "img/23.png" width = "400"> <br> 
-<img src = "img/24.png" width = "400"> <br>
+<img width="535" height="199" alt="image" src="https://github.com/user-attachments/assets/440ec41c-0e76-495e-9038-d565f9be6bcc" />
 
+
+- 왼편의 '+' 버튼을 눌러 단축키를 설정합니다.<br>
+<img width="417" height="72" alt="image" src="https://github.com/user-attachments/assets/9601fd87-b9f9-48ec-96e4-5651cb33b75b" />
+
+- 이어서, factorial.py 코드에서 두번째로 아래 주석을 입력합니다.<br>
+  `# 소수 판별 함수`<br>
+
+- (코드를 수락하지 않은 상태에서) Ctrl + Enter를 눌러서 제안되는 리스트를 확인합니다.<br>
+  <img src = "img/05.png" width = "500"> <br>
 ## Step 2 : Copilot Log 확인하기
 - VS Code 하단 터미널 창 부분의 `OUTPUT` 탭에서 `GitHub Copilot`, `GitHub Copilot Chat` 에서 Copilot 관련 로그를 확인할 수 있습니다.<br>
   <img src = "img/25.png" width = "400"> <br>
