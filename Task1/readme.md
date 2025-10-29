@@ -104,6 +104,7 @@
     <img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" />
 
 - Experimental 기능인 `NES(Next Edit Suggestion)`을 활성화/비활성화 해봅니다.<br>
+검색창에 `copilot next edit` 이라 입력하고, 활성화 기능을 채크합니다.
     <img width="672" height="282" alt="image" src="https://github.com/user-attachments/assets/4425799a-bd33-41dc-a9ef-3716ce78e163" />
 
 - Code완성 기능의 기본 모델을 변경해 봅니다.<br>
