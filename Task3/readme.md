@@ -37,15 +37,28 @@ app.py, index.html등 <br>
 <img width="380" height="73" alt="image" src="https://github.com/user-attachments/assets/79fd4772-a1f1-435a-9ea6-9bfeda4b5b92" /><br>
 <img width="405" height="137" alt="image" src="https://github.com/user-attachments/assets/3ff4629b-31c2-4509-af20-8f7e92437c0b" /><br>
 - Azure OpenAI API정보등을 담을 .env 파일을 생성합니다. <br>
-<img width="360" height="101" alt="image" src="https://github.com/user-attachments/assets/e774a900-d7f0-43fc-ba57-a1ab349ea6da" /><br>
+<img width="602" height="128" alt="image" src="https://github.com/user-attachments/assets/91539831-ec72-41c9-abeb-140aecedb8ee" /><br>
 <img width="269" height="284" alt="image" src="https://github.com/user-attachments/assets/96fefc83-cc3e-4a95-9e8a-605364ca8b65" /><br>
 `AZURE_OPENAI_ENDPOINT="https://yb-kor1.cognitiveservices.azure.com/"
 AZURE_OPENAI_API_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"
 AZURE_OPENAI_DEPLOYMENT="gpt-4.1-mini"
 api_version = "2024-12-01-preview"`
 
+- app.py 코드 수정 버튼으로 적용해줍니다. <br>
+<img width="368" height="335" alt="image" src="https://github.com/user-attachments/assets/9f9ef021-deec-401f-af49-671cdcd8aa15" /><br>
+<img width="653" height="690" alt="image" src="https://github.com/user-attachments/assets/9f589e3a-a74d-4653-a603-f024b0aaf6ea" /> <br>
+한가지 코드 API 버전을 다음과 같이 수정합니다. `api_version = "2024-12-01-preview"`
+- html 파일도 마찬가지로, 수정 버튼으로 적용해 줍니다.<br>
+<img width="586" height="286" alt="image" src="https://github.com/user-attachments/assets/ebbbbde7-28fb-4c18-99b0-7483edb6e058" /><br>
+- 이제 app.py 로 파이선을 실행합니다. <br>
+<img width="42" height="27" alt="image" src="https://github.com/user-attachments/assets/c8c3ca9e-f2ff-4adc-8a86-6ac534a29cc2" /><br>
+- output 결과창을 통해 URL 클릭 (Ctrl) <br>
+<img width="545" height="212" alt="image" src="https://github.com/user-attachments/assets/afcb5410-1030-4034-b473-ae737a38521a" /><br>
+- gpt를 통한 웹 채팅 서비스가 기동됩니다. <br>
+<img width="577" height="373" alt="image" src="https://github.com/user-attachments/assets/5e2987c8-e7f2-4616-9d4c-5be8058cf59a" /> <br>
 
-
+# 3) AI 음성 인식 및 보이스 서비스를 추가해 봅니다.
+- 
 
 
 
