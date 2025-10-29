@@ -15,8 +15,21 @@
 - Copilot Chat을 이용하여, 가위, 바위, 보 게임을 만들 수 있는 코드를 요청합니다.
 - 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터와 대결하는 로직을 추가합니다.
 - 사용자가 선택한 가위, 바위, 보와 컴퓨터의 선택을 비교하여 승패를 결정하는 로직을 추가합니다.
-- 사용자가 게임을 계속할 것인지 종료할 것인지 선택할 수 있는 로직을 추가합니다.<br>
-   <img src="img/01.png" alt="image" width="800"/><br>
+- 사용자가 게임을 계속할 것인지 종료할 것인지 선택할 수 있는 로직을 추가합니다.<br><br>
+- 먼저 "가위바위보.py" 새파일을 만듭니다.<br>
+<img width="269" height="253" alt="image" src="https://github.com/user-attachments/assets/9252f597-1df4-4449-ac6c-19fc0ca0c958" /><br>
+
+- Copilot Chat을 실행합니다. <br>
+   <img width="907" height="263" alt="image" src="https://github.com/user-attachments/assets/9b2f1c9d-1f5c-49b0-a5a2-a38d1b77ec3f" /><br>
+- 예시 문구) <br>
+가위,바위, 보 게임을 만든다. 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터는 무작위로 선택한다.
+사용자의 선택과 컴퓨터의 선택을 비교하여 승패를 결정한다. 사용자가 이기면 "You Win!", 컴퓨터가 이기면 "You lose", 비기면 "Its a tie!"를 출력한다. 사용자가 "exit"를 입력하면 게임을 종료한다.<br>
+<img width="650" height="657" alt="image" src="https://github.com/user-attachments/assets/7bb0e676-2759-44f3-aa06-a89c49254deb" /> <br>
+- 생성한 코드를 삽입합니다. <br>
+<img width="192" height="128" alt="image" src="https://github.com/user-attachments/assets/ae15f102-aedf-4a13-b930-3f932cc69310" /> <br>
+
+
+
 - 게임을 실행하고, 게임 결과를 출력 받아 봅니다.<br>
    <img src="img/02.png" alt="image" width="800"/><br>
 
