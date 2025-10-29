@@ -59,23 +59,28 @@
     <img width="436" height="218" alt="image" src="https://github.com/user-attachments/assets/c0135804-8c10-4c4c-b7c3-b1f3ccb00fcb" /> <br>
 
 ## Step 3: Review and Comment 사용해 보기
-- 마우스 오른 버튼을 클릭하여, `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
-    <img src="img/11.png" alt="image" width="500"/><br>
+- 마우스 오른 버튼을 클릭하여, `Generate Code > Review` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
+    <img width="552" height="753" alt="image" src="https://github.com/user-attachments/assets/36228fca-a108-4496-b5f6-079a7d879e5f" /><br>
+    - 제안된 코드를 적용해봅니다. <br>
+    <img width="539" height="380" alt="image" src="https://github.com/user-attachments/assets/d22dafac-da1c-4f9d-bf8b-8d2cad280fe9" /><br>
 
-    <img src="img/12.png" alt="image" width="600"/><br>
-
-- 아래 절차데로 `Review and Comment`에 대한 `Custom instructions`을 설정해 봅니다.<br>
+- 코딩 규칙을 추가한후 Review를 다시 받아보겠습니다. (`Custom instruction` 추가)<br>
+- 아래 절차데로 Custom instructions을 설정해 봅니다.<br>
   - Ctrl + Shift + P를 눌러서 명령 팔레트를 엽니다.<br>
   - `Workspace settings(JSON)`을 선택합니다.<br>
-    <img src="img/13.png" alt="image" width="400"/><br>
+    <img width="445" height="127" alt="image" src="https://github.com/user-attachments/assets/f1a94015-eb25-4995-969f-4a4dc6c02280" /> <br>
 
   - JSON 파일에 아래와 옵션을 추가하고 아래 예제와 같이 입력합니다.<br>
-    - `"github.copilot.chat.reviewSelection.instructions"`<br>
+    - `"github.copilot.chat.codeGeneration.instructions"`<br>
     <img src="img/14.png" alt="image" width="400"/><br>
-    - ` "함수의 이름은 '_'로 시작하고, 변수 네이밍 규칙과 동일하게 작성합니다. 클래스와 생성자의 이름은 파스칼케이스(PascalCase)를 사용합니다. 들여쓰기는 스페이스 2개로 한다."`<br>
+    - ` "함수의 이름은 '_'로 시작하고, 변수 네이밍 규칙과 동일하게 작성합니다` <br>
+    `클래스와 생성자의 이름은 파스칼케이스(PascalCase)를 사용합니다.`<br>
+    '들여쓰기는 스페이스 2개로 한다.`<br>
+    <img width="486" height="230" alt="image" src="https://github.com/user-attachments/assets/bc0ea122-af20-4c8c-87fd-bba89c2e4dc5" /> <br>
+
 
    - 다시 한번 `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
-    <img src="img/15.png" alt="image" width="600"/><br>
+   <img width="495" height="418" alt="image" src="https://github.com/user-attachments/assets/969bfe07-71c9-4263-aeaf-4cfb09c31445" /> <br>
 
 ## 지식 확인:
 - 코드 완성 기능과, Copilot Chat 기능의 차이점
