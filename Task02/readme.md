@@ -40,7 +40,7 @@
 
 - Copilot Chat에 위 그림파일을 복사하여 Copilot Chat에 붙여넣기 합니다.<br>
     <img width="541" height="512" alt="image" src="https://github.com/user-attachments/assets/309c92b7-4c0c-4e80-8baa-6483923a3d08" /><br>
-    <img width="531" height="263" alt="image" src="https://github.com/user-attachments/assets/2958ec6e-3c20-425f-b21d-f9b6cd82cf4b" /><br>
+    <img width="100" src="https://github.com/user-attachments/assets/2958ec6e-3c20-425f-b21d-f9b6cd82cf4b" /><br>
 
 - Copilot Chat에 붙여넣기 한 그림파일 'Pasted Image'가 있음을 확인합니다.<br>
     <img width="198" height="99" alt="image" src="https://github.com/user-attachments/assets/a0638f2d-15cd-42d9-8b8d-292185e34d9d" /><br>
@@ -54,7 +54,8 @@
 - Copilot Chat에서 `Apply to file` 버튼을 클릭하여, 제안된 코드를 적용합니다.<br>
     <img width="147" height="43" alt="image" src="https://github.com/user-attachments/assets/38480cdf-bdc6-4a3d-9f61-f1763a0a0675" /> <br>
 
-- 필요시 미진한 코드를 추가하고 실행해 봅니다.<br>
+- 필요시 미진한 코드를 추가하고 실행해 봅니다. 간단하게 줄여달라 요청해봅니다.<br>
+<img width="470" height="235" alt="image" src="https://github.com/user-attachments/assets/4b792eef-e61e-4cab-acd3-58f8a5d9e148" /> <br>
     <img width="436" height="218" alt="image" src="https://github.com/user-attachments/assets/c0135804-8c10-4c4c-b7c3-b1f3ccb00fcb" /> <br>
 
 ## Step 3: Review and Comment 사용해 보기
