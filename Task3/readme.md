@@ -15,6 +15,7 @@
 - 신규 폴더를 내 랩탑의 적절한 위치에 "my-web-app" 이름으로 생성합니다. <br>
 <img width="471" height="183" alt="image" src="https://github.com/user-attachments/assets/a54bb6c3-f6b6-4e55-8d9d-39ce97ba32f2" /> <br>
 - 생성한 Workspace가 생성되고, 필요한 파일들도 함께 만들어진것을 확인합니다. <br>
+app.py, index.html등 <br>
 <img width="264" height="374" alt="image" src="https://github.com/user-attachments/assets/1de6cb26-4250-49c7-90d6-e92250d9ccc8" /> <br>
 - app.py를 열어보고, 실행해봅니다.<br>
 <img width="910" height="386" alt="image" src="https://github.com/user-attachments/assets/54cb6613-9260-4ffe-9734-dfb7860258ef" /> <br>
@@ -28,7 +29,15 @@
 <img width="820" height="287" alt="image" src="https://github.com/user-attachments/assets/6f76f922-0480-4278-b880-38b11912b167" /> <br>
 
 ## 2) 채팅 기능의 강화를 위해 LLM(Chatgpt)을 연동해보겠습니다.
-- 
+- Copilot Chat에 추가 보완하고자 하는 내용을 추가합니다. <br>
+`예) 사용자의 Input로 부터 값을 받아서, 이 값을 Azure openAI의 gpt4.1 로 보내고 , 나온 결과를 화면 상단에 출력해주도록 코드를 추가하고 싶어. 코드는 최소한만 수정하고 간단하게 알려줘`<br>
+<img width="365" height="474" alt="image" src="https://github.com/user-attachments/assets/489de208-59f9-4fc6-b7db-38c5e79142d5" /><br>
+- 필요한 Python 라이브러리를 설치합니다. <br>
+<img width="380" height="73" alt="image" src="https://github.com/user-attachments/assets/79fd4772-a1f1-435a-9ea6-9bfeda4b5b92" /><br>
+<img width="405" height="137" alt="image" src="https://github.com/user-attachments/assets/3ff4629b-31c2-4509-af20-8f7e92437c0b" /><br>
+
+
+
 
 
 
