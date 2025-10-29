@@ -27,36 +27,35 @@
 <img width="650" height="657" alt="image" src="https://github.com/user-attachments/assets/7bb0e676-2759-44f3-aa06-a89c49254deb" /> <br>
 - 생성한 코드를 삽입합니다. <br>
 <img width="192" height="128" alt="image" src="https://github.com/user-attachments/assets/ae15f102-aedf-4a13-b930-3f932cc69310" /> <br>
-
+<img width="486" height="646" alt="image" src="https://github.com/user-attachments/assets/f523eec2-e86d-4079-bbc7-95e94d50b00a" /> <br>
 
 
 - 게임을 실행하고, 게임 결과를 출력 받아 봅니다.<br>
-   <img src="img/02.png" alt="image" width="800"/><br>
+  <img width="817" height="218" alt="image" src="https://github.com/user-attachments/assets/52fde1c8-e681-43ed-8cd6-58e000cc5bef" />
+<br>
 
 ## Step 2 : Lizard, Spock 추가하기
 - 만들어진 게임에 추가로 Lizard, Spock의 로직을 Copilot을 활용하여 추가합니다.<br>
-   <img src="img/image.png" width="600"><br>
-- `choices` 리스트에 Lizard와 Spock을 추가합니다.<br>
-    <img src="img/03.png" alt="image" width="400"/><br>
+   <img width="640" height="597" alt="image" src="https://github.com/user-attachments/assets/f48ab55c-8f55-4fda-b075-37a5c0cb21d9" /> <br>
 
 - Copilot Chat에 위 그림파일을 복사하여 Copilot Chat에 붙여넣기 합니다.<br>
-    <img src="img/04.png" alt="image" width="400"/><br>
-    <img src="img/05.png" alt="image" width="400"/><br>
+    <img width="541" height="512" alt="image" src="https://github.com/user-attachments/assets/309c92b7-4c0c-4e80-8baa-6483923a3d08" /><br>
+    <img width="531" height="263" alt="image" src="https://github.com/user-attachments/assets/2958ec6e-3c20-425f-b21d-f9b6cd82cf4b" /><br>
 
 - Copilot Chat에 붙여넣기 한 그림파일 'Pasted Image'가 있음을 확인합니다.<br>
-    <img src="img/06.png" alt="image" width="300"/><br>
+    <img width="198" height="99" alt="image" src="https://github.com/user-attachments/assets/a0638f2d-15cd-42d9-8b8d-292185e34d9d" /><br>
 
 - Copilot Chat에 `그림파일데로 Lizard, Spock을 추가해 주세요` 라고 요청합니다.<br>
-    <img src="img/07.png" alt="image" width="300"/><br>
+    <img width="192" height="47" alt="image" src="https://github.com/user-attachments/assets/fdfdc381-370c-4b36-b541-c78c1f3e9778" /><br>
 
 - Copilot Chat에서 제안된 코드를 확인합니다.<br>
-    <img src="img/08.png" alt="image" width="500"/><br>
+    <img width="475" height="715" alt="image" src="https://github.com/user-attachments/assets/c8a3b9b5-1fde-49d7-887f-b705f57822d6" /><br>
 
 - Copilot Chat에서 `Apply to file` 버튼을 클릭하여, 제안된 코드를 적용합니다.<br>
-    <img src="img/09.png" alt="image" width="300"/><br>
+    <img width="147" height="43" alt="image" src="https://github.com/user-attachments/assets/38480cdf-bdc6-4a3d-9f61-f1763a0a0675" /> <br>
 
 - 필요시 미진한 코드를 추가하고 실행해 봅니다.<br>
-    <img src="img/10.png" alt="image" width="400"/><br>
+    <img width="436" height="218" alt="image" src="https://github.com/user-attachments/assets/c0135804-8c10-4c4c-b7c3-b1f3ccb00fcb" /> <br>
 
 ## Step 3: Review and Comment 사용해 보기
 - 마우스 오른 버튼을 클릭하여, `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
