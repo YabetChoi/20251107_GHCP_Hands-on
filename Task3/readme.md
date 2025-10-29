@@ -38,7 +38,11 @@ app.py, index.html등 <br>
 <img width="405" height="137" alt="image" src="https://github.com/user-attachments/assets/3ff4629b-31c2-4509-af20-8f7e92437c0b" /><br>
 - Azure OpenAI API정보등을 담을 .env 파일을 생성합니다. <br>
 <img width="360" height="101" alt="image" src="https://github.com/user-attachments/assets/e774a900-d7f0-43fc-ba57-a1ab349ea6da" /><br>
-<img width="269" height="284" alt="image" src="https://github.com/user-attachments/assets/96fefc83-cc3e-4a95-9e8a-605364ca8b65" />
+<img width="269" height="284" alt="image" src="https://github.com/user-attachments/assets/96fefc83-cc3e-4a95-9e8a-605364ca8b65" /><br>
+`AZURE_OPENAI_ENDPOINT="https://yb-kor1.cognitiveservices.azure.com/"
+AZURE_OPENAI_API_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"
+AZURE_OPENAI_DEPLOYMENT="gpt-4.1-mini"
+api_version = "2024-12-01-preview"`
 
 
 
