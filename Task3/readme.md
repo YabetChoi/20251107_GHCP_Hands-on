@@ -32,9 +32,15 @@ app.py, index.html등 <br>
 - Copilot Chat에 추가 보완하고자 하는 내용을 추가합니다. <br>
 `예) 사용자의 Input로 부터 값을 받아서, 이 값을 Azure openAI의 gpt4.1 로 보내고 , 나온 결과를 화면 상단에 출력해주도록 코드를 추가하고 싶어. 코드는 최소한만 수정하고 간단하게 알려줘`<br>
 <img width="365" height="474" alt="image" src="https://github.com/user-attachments/assets/489de208-59f9-4fc6-b7db-38c5e79142d5" /><br>
+- (참고) 아래 코드 가이드 순서는 개인마다 다를수 있으며, 표준 방법을 기준으로 설명합니다.
 - 필요한 Python 라이브러리를 설치합니다. <br>
 <img width="380" height="73" alt="image" src="https://github.com/user-attachments/assets/79fd4772-a1f1-435a-9ea6-9bfeda4b5b92" /><br>
 <img width="405" height="137" alt="image" src="https://github.com/user-attachments/assets/3ff4629b-31c2-4509-af20-8f7e92437c0b" /><br>
+- Azure OpenAI API정보등을 담을 .env 파일을 생성합니다. <br>
+<img width="360" height="101" alt="image" src="https://github.com/user-attachments/assets/e774a900-d7f0-43fc-ba57-a1ab349ea6da" /><br>
+<img width="269" height="284" alt="image" src="https://github.com/user-attachments/assets/96fefc83-cc3e-4a95-9e8a-605364ca8b65" />
+
+
 
 
 
