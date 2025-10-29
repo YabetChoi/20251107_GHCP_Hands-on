@@ -58,8 +58,8 @@
 <img width="470" height="235" alt="image" src="https://github.com/user-attachments/assets/4b792eef-e61e-4cab-acd3-58f8a5d9e148" /> <br>
     <img width="436" height="218" alt="image" src="https://github.com/user-attachments/assets/c0135804-8c10-4c4c-b7c3-b1f3ccb00fcb" /> <br>
 
-## Step 3: Review and Comment 사용해 보기
-- 마우스 오른 버튼을 클릭하여, `Generate Code > Review` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
+## Step 3: Code Review 사용해 보기
+- 마우스 오른 버튼을 클릭하여, `Generate Code` /  `Review` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
     <img width="552" height="753" alt="image" src="https://github.com/user-attachments/assets/36228fca-a108-4496-b5f6-079a7d879e5f" /><br>
     - 제안된 코드를 적용해봅니다. <br>
     <img width="539" height="380" alt="image" src="https://github.com/user-attachments/assets/d22dafac-da1c-4f9d-bf8b-8d2cad280fe9" /><br>
@@ -70,19 +70,21 @@
   - `Workspace settings(JSON)`을 선택합니다.<br>
     <img width="445" height="127" alt="image" src="https://github.com/user-attachments/assets/f1a94015-eb25-4995-969f-4a4dc6c02280" /> <br>
 
-  - JSON 파일에 아래와 옵션을 추가하고 아래 예제와 같이 입력합니다.<br>
-    - `"github.copilot.chat.codeGeneration.instructions"`<br>
-    <img src="img/14.png" alt="image" width="400"/><br>
-    - ` "함수의 이름은 '_'로 시작하고, 변수 네이밍 규칙과 동일하게 작성합니다` <br>
-    `클래스와 생성자의 이름은 파스칼케이스(PascalCase)를 사용합니다.`<br>
-    '들여쓰기는 스페이스 2개로 한다.`<br>
+  - 설정 JSON 파일을 열고, 'github.copilot.chat.codeGeneration.instructions' 을 설정해봅니다.<br>
+  <img width="363" height="87" alt="image" src="https://github.com/user-attachments/assets/3af6ea94-7a6f-4141-96ad-5bb6af790837" /> <br>
     <img width="486" height="230" alt="image" src="https://github.com/user-attachments/assets/bc0ea122-af20-4c8c-87fd-bba89c2e4dc5" /> <br>
+`{
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "text": "함수의 이름은 '_'로 시작하고, 변수 네이밍 규칙과 동일하게 작성합니다. 클래스와 생성자의 이름은 파스칼케이스(PascalCase)를 사용합니다. 들여쓰기는 스페이스 2개로 한다."
+    }
+  ]
+}`
 
-
-   - 다시 한번 `Review and Comment` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
+   - 다시 한번 `Code Review` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
    <img width="495" height="418" alt="image" src="https://github.com/user-attachments/assets/969bfe07-71c9-4263-aeaf-4cfb09c31445" /> <br>
 
 ## 지식 확인:
 - 코드 완성 기능과, Copilot Chat 기능의 차이점
 - Vision 기능으로 가능한 다른 활용법
-- Copilot Chat의 `Review and Comment` 기능과 custom instruction을 활용하여, 원하는 형태로 리뷰를 받아 보는 방법
+- Copilot Chat의 `Code Review` 기능과 custom instruction을 활용하여, 원하는 형태로 리뷰를 받아 보는 방법
