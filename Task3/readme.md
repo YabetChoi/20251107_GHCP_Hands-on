@@ -57,8 +57,24 @@ api_version = "2024-12-01-preview"`
 - gpt를 통한 웹 채팅 서비스가 기동됩니다. <br>
 <img width="577" height="373" alt="image" src="https://github.com/user-attachments/assets/5e2987c8-e7f2-4616-9d4c-5be8058cf59a" /> <br>
 
-# 3) AI 음성 인식 및 보이스 서비스를 추가해 봅니다.
-- 
+## 3) AI 음성 인식 서비스를 추가해 봅니다.
+- Copilot Chat에 음성인식 기능을 추가해 달라고 요청합니다.<br>
+`(샘플) 자 이제, App에 음성인식 기능을 붙이려고해. 기존 코드에 변경을 최소화하고, 최대한 간단하게 코드 수정할 부분을 위주로 알려줘.
+먼저, 사용자 Input Text 우측에 마이크 버튼을 추가해주고, 누르면 사용자의 음성을 Input으로 받아서 Azure의 Speech to Text API로 넘겨주고, Text 결과를 Input 에 적어준다`<br>
+<img width="391" height="607" alt="image" src="https://github.com/user-attachments/assets/d44f0c71-9631-49ba-9ee5-ea31bfc8336a" /><br>
+- 가이드에 따라 코드를 하나씩 수정해봅니다. <br>
+- 먼저 필요한 Python 패키지를 설치합니다. <br>
+<img width="381" height="66" alt="image" src="https://github.com/user-attachments/assets/70e4b60e-c924-43b3-b025-9ffee6f1fdcb" /><br>
+<img width="307" height="136" alt="image" src="https://github.com/user-attachments/assets/83d7c3e0-9866-4db5-8b55-6de44a812544" /><br>
+- .env 파일에 음성서비스 API키를 추가합니다. <br>
+<img width="386" height="133" alt="image" src="https://github.com/user-attachments/assets/e0da1201-1323-4a5d-9c3a-4ad548ce0406" /><br>
+<img width="732" height="363" alt="image" src="https://github.com/user-attachments/assets/8cd76c04-1b30-4c8f-8574-c92f896e8672" /><br>
+`AZURE_SPEECH_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"
+AZURE_SPEECH_REGION="koreacentral"`
+
+
+
+
 
 
 
