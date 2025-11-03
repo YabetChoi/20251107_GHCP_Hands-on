@@ -31,10 +31,9 @@
 
 
 - 게임을 실행하고, 게임 결과를 출력 받아 봅니다.<br>
-  <img width="817" height="218" alt="image" src="https://github.com/user-attachments/assets/52fde1c8-e681-43ed-8cd6-58e000cc5bef" />
-<br>
+  <img width="817" height="218" alt="image" src="https://github.com/user-attachments/assets/52fde1c8-e681-43ed-8cd6-58e000cc5bef" /><br>
 - Copilot Chat과 동일하게, **Inline Chat** 모드를 실행해보겠습니다.<br>
-가위바위보.py 코드에서 일부 영역을 선택하고  `**Ctrl + I**` 버튼을 눌러봅니다.<br>
+가위바위보.py 코드에서 일부 영역을 선택하고  `Ctrl + I` 버튼을 눌러봅니다.<br>
 <img width="324" height="245" alt="image" src="https://github.com/user-attachments/assets/c7cda2df-e798-4fc6-92b3-69ae26084024" /><br>
 선택된 코드에 대한 설명을 요청하거나, 코드를 수정해달라고 요청할수 있습니다. `while이 왜 쓰여지는거니?`<br>
 <img width="301" height="365" alt="image" src="https://github.com/user-attachments/assets/108c8007-3ea4-456c-b7d9-c5b9bc1dea84" /><br>
