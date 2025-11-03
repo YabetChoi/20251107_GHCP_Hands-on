@@ -67,6 +67,10 @@ Copilot Chat과 마찬가지로, Chat에서 제안받을 LLM 모델을 선택할
 <img width="470" height="235" alt="image" src="https://github.com/user-attachments/assets/4b792eef-e61e-4cab-acd3-58f8a5d9e148" /> <br>
     <img width="436" height="218" alt="image" src="https://github.com/user-attachments/assets/c0135804-8c10-4c4c-b7c3-b1f3ccb00fcb" /> <br>
 
+-Copilot Chat에서 질의했던 히스토리를 살펴볼수 있습니다.<br>
+<img width="102" height="36" alt="image" src="https://github.com/user-attachments/assets/85e616af-f1ae-4340-9614-3753432d803a" /><br>
+
+
 ## Step 3: Code Review 사용해 보기
 - 마우스 오른 버튼을 클릭하여, `Generate Code` /  `Review` 기능을 사용하여, 코드에 대한 리뷰를 받아 봅니다.<br>
     <img width="552" height="753" alt="image" src="https://github.com/user-attachments/assets/36228fca-a108-4496-b5f6-079a7d879e5f" /><br>
