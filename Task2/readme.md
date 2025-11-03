@@ -19,7 +19,7 @@
 - 먼저 "가위바위보.py" 새파일을 만듭니다.<br>
 <img width="269" height="253" alt="image" src="https://github.com/user-attachments/assets/9252f597-1df4-4449-ac6c-19fc0ca0c958" /><br>
 
-- Copilot Chat을 실행합니다. <br>
+- **Copilot Chat**을 실행합니다. <br>
    <img width="907" height="263" alt="image" src="https://github.com/user-attachments/assets/9b2f1c9d-1f5c-49b0-a5a2-a38d1b77ec3f" /><br>
 - 예시 문구) <br>
 가위,바위, 보 게임을 만든다. 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터는 무작위로 선택한다.
@@ -28,10 +28,9 @@
 - 생성한 코드를 삽입합니다. <br>
 <img width="192" height="128" alt="image" src="https://github.com/user-attachments/assets/ae15f102-aedf-4a13-b930-3f932cc69310" /> <br>
 <img width="486" height="646" alt="image" src="https://github.com/user-attachments/assets/f523eec2-e86d-4079-bbc7-95e94d50b00a" /> <br>
-
-
 - 게임을 실행하고, 게임 결과를 출력 받아 봅니다.<br>
   <img width="817" height="218" alt="image" src="https://github.com/user-attachments/assets/52fde1c8-e681-43ed-8cd6-58e000cc5bef" /><br>
+
 - Copilot Chat과 동일하게, **Inline Chat** 모드를 실행해보겠습니다.<br>
 가위바위보.py 코드에서 일부 영역을 선택하고  `Ctrl + I` 버튼을 눌러봅니다.<br>
 <img width="324" height="245" alt="image" src="https://github.com/user-attachments/assets/c7cda2df-e798-4fc6-92b3-69ae26084024" /><br>
@@ -45,11 +44,11 @@ Copilot Chat과 마찬가지로, Chat에서 제안받을 LLM 모델을 선택할
 
 ## Step 2 : Lizard, Spock 추가하기
 - 만들어진 게임에 추가로 Lizard, Spock의 로직을 Copilot을 활용하여 추가합니다.<br>
-   <img width="640" height="597" alt="image" src="https://github.com/user-attachments/assets/f48ab55c-8f55-4fda-b075-37a5c0cb21d9" /> <br>
+   <img width="300" alt="image" src="https://github.com/user-attachments/assets/f48ab55c-8f55-4fda-b075-37a5c0cb21d9" /> <br>
 
 - Copilot Chat에 위 그림파일을 복사하여 Copilot Chat에 붙여넣기 합니다.<br>
-    <img width="541" height="512" alt="image" src="https://github.com/user-attachments/assets/309c92b7-4c0c-4e80-8baa-6483923a3d08" /><br>
-    <img width="100" src="https://github.com/user-attachments/assets/2958ec6e-3c20-425f-b21d-f9b6cd82cf4b" /><br>
+    <img width="300" alt="image" src="https://github.com/user-attachments/assets/309c92b7-4c0c-4e80-8baa-6483923a3d08" /><br>
+    <img width="300" src="https://github.com/user-attachments/assets/2958ec6e-3c20-425f-b21d-f9b6cd82cf4b" /><br>
 
 - Copilot Chat에 붙여넣기 한 그림파일 'Pasted Image'가 있음을 확인합니다.<br>
     <img width="198" height="99" alt="image" src="https://github.com/user-attachments/assets/a0638f2d-15cd-42d9-8b8d-292185e34d9d" /><br>
