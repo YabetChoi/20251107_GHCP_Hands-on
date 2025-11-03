@@ -44,11 +44,11 @@ Copilot Chat과 마찬가지로, Chat에서 제안받을 LLM 모델을 선택할
 
 ## Step 2 : Lizard, Spock 추가하기
 - 만들어진 게임에 추가로 Lizard, Spock의 로직을 Copilot을 활용하여 추가합니다.<br>
-   <img width="300" alt="image" src="https://github.com/user-attachments/assets/f48ab55c-8f55-4fda-b075-37a5c0cb21d9" /> <br>
+   <img width="400" alt="image" src="https://github.com/user-attachments/assets/f48ab55c-8f55-4fda-b075-37a5c0cb21d9" /> <br>
 
 - Copilot Chat에 위 그림파일을 복사하여 Copilot Chat에 붙여넣기 합니다.<br>
-    <img width="300" alt="image" src="https://github.com/user-attachments/assets/309c92b7-4c0c-4e80-8baa-6483923a3d08" /><br>
-    <img width="300" src="https://github.com/user-attachments/assets/2958ec6e-3c20-425f-b21d-f9b6cd82cf4b" /><br>
+    <img width="400" alt="image" src="https://github.com/user-attachments/assets/309c92b7-4c0c-4e80-8baa-6483923a3d08" /><br>
+    <img width="400" src="https://github.com/user-attachments/assets/2958ec6e-3c20-425f-b21d-f9b6cd82cf4b" /><br>
 
 - Copilot Chat에 붙여넣기 한 그림파일 'Pasted Image'가 있음을 확인합니다.<br>
     <img width="198" height="99" alt="image" src="https://github.com/user-attachments/assets/a0638f2d-15cd-42d9-8b8d-292185e34d9d" /><br>
