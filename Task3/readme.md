@@ -4,7 +4,7 @@
 - 음성 인식 기능과 음성 출력 기능을 추가합니다.
 
 ## 1) 로컬에서 간단한 웹앱을 생성 합니다.
-- Copilot Chat 를 엽니다. <br>
+- VS Code 우측 상단의 Copilot 아이콘을 선택하여, Copilot Chat을 엽니다. <br>
 <img width="260" height="130" alt="image" src="https://github.com/user-attachments/assets/a902531e-ca2b-42cd-9d85-13e0cb8e16aa" /><br>
 - 간단한 파이썬 웹앱 코드를 생성해달라고 Copilot Chat에 입력합니다. <br>
 `파이썬 코드로, 내 랩탑에서 웹화면을 띄워주는 코드를 만들어주고, 상단에는 사용자 Input을 받고 아래는 send 버튼을 만들어줘` <br>
