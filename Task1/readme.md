@@ -24,30 +24,19 @@
 - 회색으로 제안된 코드를 확인하고, Tab키를 눌러서 코드를 완성합니다.<br>
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" /><br>
 
-## Copilot Suggestions
-- 코드로 제안되는 다양한 옵션(Copilot Suggestions)을 단축키를 통해 설정해 보겠습니다.<br>
-버전 업데이트가 진행되면서, 메뉴의 위치나 기능에 변경이 발생 할 수 있습니다. <br>
-- 상단의 Copilot 아이콘 우측을 클릭하고, `Configure Code completion`을 선택합니다.<br>
-<img width="782" height="189" alt="image" src="https://github.com/user-attachments/assets/c884e16e-88c2-4778-b350-c98da315c0ba" /><br>
-- 'Open Completions Panel'을 선택합니다.<br>
-<img width="328" height="221" alt="image" src="https://github.com/user-attachments/assets/76befbaa-f8f7-400c-ba02-4ba5343d228a" /><br>
-  
-- 단축키를 설정할 수 있습니다. <br>
-- `Ctrl + Shift + P`를 눌러 명령 팔레트를 열고 '`GitHub Copilot: Open Completions Panel`' 우측의 톱니바퀴 모양을 눌러 키보드 단축키 설정으로 이동합니다.<br>
-<img width="535" height="199" alt="image" src="https://github.com/user-attachments/assets/440ec41c-0e76-495e-9038-d565f9be6bcc" />
-
-
+- 위와 같이 코드상에서 바로 제안해주는 Inline 방식도 있으나, 제안 코드 목록을 별도의 창으로 띄워보겠습니다. (Copilot Suggestions기능)
+- `Ctrl + Shift + P`를 눌러 명령 팔레트를 열고 '`GitHub Copilot: Open Completions Panel`' 입력하여, 해당 메뉴의 우측의 톱니바퀴 모양을 눌러 키보드 단축키 설정으로 이동합니다.<br>
+<img width="535" height="199" alt="image" src="https://github.com/user-attachments/assets/440ec41c-0e76-495e-9038-d565f9be6bcc" /><br>
 - 왼편의 '+' 버튼을 눌러 단축키를 설정합니다.<br>
-<img width="417" height="72" alt="image" src="https://github.com/user-attachments/assets/9601fd87-b9f9-48ec-96e4-5651cb33b75b" />
+<img width="417" height="72" alt="image" src="https://github.com/user-attachments/assets/9601fd87-b9f9-48ec-96e4-5651cb33b75b" /><br>
 
-- 이어서, factorial.py 코드에서 두번째로 아래 주석을 입력합니다.<br>
+- 잘 동작하는지를 살펴보겠습니다. factorial.py 코드로 돌아가서, 공백라인에 아래 주석을 입력합니다.<br>
   `# 소수 판별 함수`<br>
-
 - (코드를 수락하지 않은 상태에서) Ctrl + Enter를 눌러서 제안되는 리스트를 확인합니다.<br>
-  <img width="668" height="289" alt="image" src="https://github.com/user-attachments/assets/d415a422-5cea-41db-bb2b-39fc4d8629aa" />
-- Accept Suggestions n을 선택하여 반영합니다.
-- 파이썬 코드 동작하는지 수행해봅니다. <br>
-<img width="636" height="358" alt="image" src="https://github.com/user-attachments/assets/cab1300f-d06c-49a6-af58-54a65d0968dc" />
+  <img width="668" height="289" alt="image" src="https://github.com/user-attachments/assets/d415a422-5cea-41db-bb2b-39fc4d8629aa" /><br>
+Accept Suggestions n을 선택하여 반영합니다.<br>
+- 파이썬 코드 정상 동작하는지 수행해봅니다. <br>
+<img width="636" height="358" alt="image" src="https://github.com/user-attachments/assets/cab1300f-d06c-49a6-af58-54a65d0968dc" /><br>
 
 ## Step 2 : Copilot Log 확인하기
 - VS Code 하단 터미널 창 부분의 `OUTPUT` 탭에서 `GitHub Copilot`, `GitHub Copilot Chat` 에서 Copilot 관련 로그를 확인할 수 있습니다.<br>
@@ -94,24 +83,23 @@
 
 ## Step 5 : VS Code의 Copilot 설정 메뉴
 - VS Code에서 Ctrl + Shift + P를 눌러 명령 팔레트를 열고, 'preference'을 검색하여, `Preference: Open Settings (UI)`를 선택합니다.<br>
-    <img width="527" height="301" alt="image" src="https://github.com/user-attachments/assets/3b23d8ae-82c2-430c-8b77-3481cb5f6f94" />
+    <img width="527" height="301" alt="image" src="https://github.com/user-attachments/assets/3b23d8ae-82c2-430c-8b77-3481cb5f6f94" /><br>
 
 - Copilot locale을 검색하고, 'ko'로 변경합니다.<br>
-    <img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" />
+    <img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" /><br>
 
 - Experimental 기능인 `NES(Next Edit Suggestion)`을 활성화/비활성화 해봅니다.<br>
-검색창에 `copilot next edit` 이라 입력하고, 활성화 기능을 채크합니다.
-    <img width="672" height="282" alt="image" src="https://github.com/user-attachments/assets/4425799a-bd33-41dc-a9ef-3716ce78e163" />
+검색창에 `copilot next edit` 이라 입력하고, 활성화 기능을 채크합니다.<br>
+    <img width="672" height="282" alt="image" src="https://github.com/user-attachments/assets/4425799a-bd33-41dc-a9ef-3716ce78e163" /><br>
 
-- Code완성 기능의 기본 모델을 변경해 봅니다.<br>
+- Code 완성 기능의 기본 모델을 변경해 봅니다.<br>
   - 상단의 Copilot 아이콘을 클릭하고, `Configure Code completion`을 선택합니다.<br>
-   <img width="662" height="186" alt="image" src="https://github.com/user-attachments/assets/8a3dc99c-4df5-477e-96cf-63026e795288" />
+   <img width="662" height="186" alt="image" src="https://github.com/user-attachments/assets/8a3dc99c-4df5-477e-96cf-63026e795288" /><br>
 
-  - 'Change completion model'을 선택합니다.<br>
-    <img width="296" height="183" alt="image" src="https://github.com/user-attachments/assets/56c9f3e3-90ca-4b54-be34-bdd7ed6c6f44" /> <br>
-
+  'Change completion model'을 선택합니다.<br>
+  <img width="296" height="183" alt="image" src="https://github.com/user-attachments/assets/56c9f3e3-90ca-4b54-be34-bdd7ed6c6f44" /> <br>
   - 모델을 변경할수 있습니다. (권한에 따라 보이는 모델은 다릅니다) <br>
-    <img width="420" height="132" alt="image" src="https://github.com/user-attachments/assets/9f2b1a9f-4680-4887-a79f-212990c977fd" />
+    <img width="420" height="132" alt="image" src="https://github.com/user-attachments/assets/9f2b1a9f-4680-4887-a79f-212990c977fd" /><br>
 
 
 
