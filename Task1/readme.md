@@ -10,9 +10,9 @@
 - VS Code의 Copilot 메뉴에 관한 기본적인 설정들을 변경해 봅니다.
 
 ## Step 1 : 기본 함수 작성
-- VS Code를 열고, 실습을 진행할 디렉토리를 생성(Open Folder), 새로운 파일을 생성합니다. <br>
+- VS Code를 열고, 실습을 진행할 디렉토리를 엽니다 (Open Folder), 또는 새폴더 생성해도 됩니다.<br>
 <img width="352" height="299" alt="image" src="https://github.com/user-attachments/assets/0db4f3a0-4876-457f-98ce-cdfbbefd90a2" /> <br>
-- 파일을 생성 (factorial.py)<br>
+- 코드를 작성할 새 파일을 생성해봅니다 (factorial.py)<br>
   <img width="295" height="269" alt="image" src="https://github.com/user-attachments/assets/29e8a59b-9bec-4c50-a225-ac22f7f78497" />
 
 
