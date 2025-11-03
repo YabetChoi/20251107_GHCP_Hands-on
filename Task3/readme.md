@@ -10,8 +10,8 @@
 `파이썬 코드로, 내 랩탑에서 웹화면을 띄워주는 코드를 만들어주고, 상단에는 사용자 Input을 받고 아래는 send 버튼을 만들어줘` <br>
 <img width="382" height="51" alt="image" src="https://github.com/user-attachments/assets/f45b1c23-6468-4181-8868-100ee1e66827" /><br>
 <img width="392" height="431" alt="image" src="https://github.com/user-attachments/assets/be1ffc8f-dff6-420b-95bc-ca3bfef24826" /> <br>
-- Create Workspace를 클릭합니다. <br>
-(결과가 다르더라도 Copilot Chat과 질문/답변하며 파일을 수동으로 생성할수도 있습니다)
+- 가이드 해주는대로 Create Workspace를 클릭합니다. <br>
+(파일 및 디렉토리 구조는 다를수 있으며, Copilot Chat과 질문/답변하며 파일을 수동으로 생성할수도 있습니다)
 - 신규 프로젝트 생성할 폴더를 선택해주시거나, 또는 내 랩탑의 적절한 위치에 "my-web-app" 이름으로 새로 생성합니다. <br>
 <img width="471" height="183" alt="image" src="https://github.com/user-attachments/assets/a54bb6c3-f6b6-4e55-8d9d-39ce97ba32f2" /> <br>
 - 생성한 Workspace가 생성되고, 필요한 파일들도 함께 만들어진것을 확인합니다. <br>
