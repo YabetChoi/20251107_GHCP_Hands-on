@@ -23,16 +23,14 @@
 
 - 회색으로 제안된 코드를 확인하고, Tab키를 눌러서 코드를 완성합니다.<br>
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" /><br>
-**참고:** <br>
-- 제안되는 리스트 목록을 확인하기 위해 Github Copilot Suggestion을 단축키를 통해 설정합니다. <br>
-- 버전 업데이트가 진행되면서, 메뉴의 위치나 기능에 변경이 발생 할 수 있습니다. <br>
 
-- 상단의 Copilot 아이콘을 클릭하고, `Configure Code completion`을 선택합니다.<br>
-<img width="782" height="189" alt="image" src="https://github.com/user-attachments/assets/c884e16e-88c2-4778-b350-c98da315c0ba" />
-
+## Copilot Suggestions
+- 코드로 제안되는 다양한 옵션(Copilot Suggestions)을 단축키를 통해 설정해 보겠습니다.<br>
+버전 업데이트가 진행되면서, 메뉴의 위치나 기능에 변경이 발생 할 수 있습니다. <br>
+- 상단의 Copilot 아이콘 우측을 클릭하고, `Configure Code completion`을 선택합니다.<br>
+<img width="782" height="189" alt="image" src="https://github.com/user-attachments/assets/c884e16e-88c2-4778-b350-c98da315c0ba" /><br>
 - 'Open Completions Panel'을 선택합니다.<br>
-<img width="328" height="221" alt="image" src="https://github.com/user-attachments/assets/76befbaa-f8f7-400c-ba02-4ba5343d228a" />
-
+<img width="328" height="221" alt="image" src="https://github.com/user-attachments/assets/76befbaa-f8f7-400c-ba02-4ba5343d228a" /><br>
   
 - 단축키를 설정할 수 있습니다. <br>
 - `Ctrl + Shift + P`를 눌러 명령 팔레트를 열고 '`GitHub Copilot: Open Completions Panel`' 우측의 톱니바퀴 모양을 눌러 키보드 단축키 설정으로 이동합니다.<br>
