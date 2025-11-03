@@ -19,12 +19,10 @@
 - 아래의 주석을 입력 합니다.<br>
   `# 팩토리얼 함수 `<br>
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/874f68a8-0a1f-4dec-ba0f-0b1fbec31a21" /> <br>
-반응이 없을시 스페이스 또는 . 을 눌러서 Copilot이 깨어나도록 해주세요
+반응이 없을시 스페이스 또는 . 을 눌러서 Copilot이 깨어나도록 해주세요<br>
 
 - 회색으로 제안된 코드를 확인하고, Tab키를 눌러서 코드를 완성합니다.<br>
-<img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" />
-
-  <br>
+<img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" /><br>
 **참고:** <br>
 - 제안되는 리스트 목록을 확인하기 위해 Github Copilot Suggestion을 단축키를 통해 설정합니다. <br>
 - 버전 업데이트가 진행되면서, 메뉴의 위치나 기능에 변경이 발생 할 수 있습니다. <br>
