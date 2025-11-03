@@ -12,9 +12,9 @@
 <img width="392" height="431" alt="image" src="https://github.com/user-attachments/assets/be1ffc8f-dff6-420b-95bc-ca3bfef24826" /> <br>
 - 가이드 해주는대로 Create Workspace를 클릭합니다. <br>
 (파일 및 디렉토리 구조는 다를수 있으며, Copilot Chat과 질문/답변하며 파일을 수동으로 생성할수도 있습니다)
-- 신규 프로젝트 생성할 폴더를 선택해주시거나, 또는 내 랩탑의 적절한 위치에 "my-web-app" 이름으로 새로 생성합니다. <br>
+- 신규 프로젝트로 사용될 폴더를 선택해주시거나, 또는 적절한 위치에 "my-web-app" 새로 생성합니다. <br>
 <img width="471" height="183" alt="image" src="https://github.com/user-attachments/assets/a54bb6c3-f6b6-4e55-8d9d-39ce97ba32f2" /> <br>
-- 생성한 Workspace가 생성되고, 필요한 파일들도 함께 만들어진것을 확인합니다. <br>
+- 이후, 지정한 Workspace의 구조로 필요한 파일들도 함께 만들어진것을 확인합니다. <br>
 app.py, index.html등 <br>
 <img width="264" height="374" alt="image" src="https://github.com/user-attachments/assets/1de6cb26-4250-49c7-90d6-e92250d9ccc8" /> <br>
 - app.py를 열어보고, 실행해봅니다.<br>
