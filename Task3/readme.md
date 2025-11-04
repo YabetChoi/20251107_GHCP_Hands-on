@@ -72,6 +72,26 @@ api_version = "2024-12-01-preview"`
 `AZURE_SPEECH_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"
 AZURE_SPEECH_REGION="koreacentral"`
 
+## 추가) Agent 모드를 실습해보겠습니다.
+- 새로운 Copilot Chat창을 열고 봅니다.<br>
+- Chat모드에서 Agent를 선택합니다.<br>
+<img width="187" height="411" alt="image" src="https://github.com/user-attachments/assets/1896e79b-40d4-4214-8319-2fcd004dab78" /><br>
+- Agent 모드는 보다 **복잡한 작업**을 **자율적으로 수행** 할수 있습니다. AI는 작업이 완료될 때까지 코드를 단계별로 실행하도록 가이드를 해줍니다.<br>
+- 아주 간단하게 Agent모드를 동작시켜 봅시다. <br>
+채팅항목에 아래 내용을 입력해봅니다.<br>
+`파이썬으로 간단한 챗봇 웹어플리케이션을 만들어줘. 사용자 입력을 text로 받고 챗봇의 결과를 출력해주는 화면을 만들어줘. 디자인은 모던하게.`<br>
+<img width="881" height="576" alt="image" src="https://github.com/user-attachments/assets/eb790ecc-6551-47e1-bc87-e0555df21c32" /><br>
+- Agent 모드는 사용자가 허용하면, 필요한 폴더 파일들을 자동으로 생성합니다. 이후에 만들어진 파일들을 유지할지 취소할지를 결정하게 됩니다. Keep을 선택!<br>
+<img width="370" height="217" alt="image" src="https://github.com/user-attachments/assets/70831584-7a2d-4b45-944c-aa84e5b4d623" /><br>
+app.py를 실행하여, local에서 웹서비스를 띄워봅니다.<br>
+<img width="538" height="208" alt="image" src="https://github.com/user-attachments/assets/b08b1694-e32e-4100-9d7d-0850d2c646f9" /><br>
+정상적으로 접속이 됩니다.<br>
+<img width="457" height="476" alt="image" src="https://github.com/user-attachments/assets/8b524316-cff9-45ca-abee-bcf9171ad113" /><br>
+
+
+
+
+
 
 
 
