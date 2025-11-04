@@ -70,7 +70,14 @@ api_version = "2024-12-01-preview"`
 <img width="386" height="133" alt="image" src="https://github.com/user-attachments/assets/e0da1201-1323-4a5d-9c3a-4ad548ce0406" /><br>
 <img width="732" height="363" alt="image" src="https://github.com/user-attachments/assets/8cd76c04-1b30-4c8f-8574-c92f896e8672" /><br>
 `AZURE_SPEECH_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"
-AZURE_SPEECH_REGION="koreacentral"`
+AZURE_SPEECH_REGION="koreacentral"`<br>
+- Copilot의 가이드 대로 질문/답변을 반복해 나가면서 최종적으로 app.py 파일을 완성해봅니다. <br>
+<img width="550" height="202" alt="image" src="https://github.com/user-attachments/assets/20a0e25d-4b4e-4765-9940-fb39cc0938b2" /><br>
+<img width="548" height="384" alt="image" src="https://github.com/user-attachments/assets/e4d00d05-6956-461a-bdf0-a7ec94b6834c" /><br>
+질문의 답변을 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 됐습니다.<br>
+(참고) 다른 음성 목소리로도 바꿔봅니다.<br>
+
+
 
 ## 추가) Agent 모드를 실습해보겠습니다.
 - 새로운 Copilot Chat창을 열고 봅니다.<br>
