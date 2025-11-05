@@ -1,4 +1,4 @@
-# Task 1: 간단한 함수 코드 작성하기 (**Code 완성 **기능 사용)
+# Task 1: 간단한 함수 코드 작성하기 (Code 완성 기능 사용)
 
 ## Use case: 
 - GitHub Copilot를 활용하여 간단한 함수와 테스트 코드를 제안받습니다. 이를 통해, GitHub Copilot이 기본적인 기능을 익히고, 어떠한 방식으로 일반적인 코딩 작업을 지원하는지 확인할 수 있습니다.
@@ -10,9 +10,10 @@
 - VS Code의 Copilot 메뉴에 관한 기본적인 설정들을 변경해 봅니다.
 
 ## Step 1 : 기본 함수 작성
-- VS Code를 열고, 실습을 진행할 디렉토리를 엽니다 (Open Folder), 또는 새폴더 생성해도 됩니다.<br>
+- VS Code를 실행하고, 실습을 진행할 디렉토리를 엽니다 (좌측 상단의 Open Folder). 또는 원하는 위치에 새폴더 생성해도 됩니다.<br>
 <img width="352" height="299" alt="image" src="https://github.com/user-attachments/assets/0db4f3a0-4876-457f-98ce-cdfbbefd90a2" /> <br>
-- 코드를 작성할 새 파일을 생성해봅니다 (factorial.py)<br>
+<img width="855" height="484" alt="image" src="https://github.com/user-attachments/assets/fb4f0a2b-a5b2-4ea0-92c8-393056d3c5df" /><br>
+- 새 파일을 생성합니다. 파일이름은 factorial.py로 생성합니다. (실습은 파이썬으로 진행)  <br>
   <img width="295" height="269" alt="image" src="https://github.com/user-attachments/assets/29e8a59b-9bec-4c50-a225-ac22f7f78497" />
 
 
