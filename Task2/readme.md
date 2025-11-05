@@ -8,8 +8,8 @@
 - 게임을 실행하고 게임 결과를 출력합니다.
 - 기본적인 가위, 바위, 보 게임 외에, Lizard, Spock 등의 확장판 게임을 추가합니다.
 - Copilot Chat의 `Vision` 기능을 활용하여, 그림파일을 붙여넣기 하고, 이를 기반으로 코드를 제안받아 봅니다.
-- Copilot Chat의 `Review and Comment` 기능을 활용하여, 코드에 대한 리뷰를 받아 봅니다.
-- `Review and Comment`에 Custom instruction을 제공하여, 원하는 형태로 리뷰를 받아 봅니다.
+- Copilot Chat의 `Review` 기능을 활용하여, 코드에 대한 리뷰를 받아 봅니다.
+- `Review`에 Custom instruction을 제공하여, 원하는 형태로 리뷰를 받아 봅니다.
 
 ## Step 1: 가위, 바위, 보 게임 만들기
 - Copilot Chat을 이용하여, 가위, 바위, 보 게임을 만들 수 있는 코드를 요청합니다.<br>
