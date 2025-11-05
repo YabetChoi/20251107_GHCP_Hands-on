@@ -19,7 +19,7 @@
  - GitHub Copilot Log를 확인하여, 오픈소스와 매치되는 코드인 경우 레퍼런스 정보를 확인합니다. 
  - VS Code의 Copilot 메뉴 기본적인 설정들을 변경해 봅니다. 
 
-## [Task 2](/Task2/README.md): 가위, 바위, 보 게임 만들기 (**Copilot Chat** 기능 사용)
+## [Task 2](/Task2/README.md): 가위, 바위, 보 게임 만들기 (**Copilot Chat ** 기능 사용)
  - GitHub Copilot과 함께 가위, 바위, 보 게임을 만들어 봅니다.
  - Copilot을 통해 테스트 코드를 작성해 봅니다.
  - Copilot chat의 각종 메뉴들을 사용해 봅니다.
