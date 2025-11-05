@@ -48,15 +48,15 @@ app.py, index.html등 <br>
 - Azure OpenAI API정보등을 담을 .env 파일을 생성합니다. <br>
 <img width="602" height="128" alt="image" src="https://github.com/user-attachments/assets/91539831-ec72-41c9-abeb-140aecedb8ee" /><br>
 <img width="269" height="284" alt="image" src="https://github.com/user-attachments/assets/96fefc83-cc3e-4a95-9e8a-605364ca8b65" /><br>
-`AZURE_OPENAI_ENDPOINT="https://yb-kor1.cognitiveservices.azure.com/"
-AZURE_OPENAI_API_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"
-AZURE_OPENAI_DEPLOYMENT="gpt-4.1-mini"
-api_version = "2024-12-01-preview"`
+`AZURE_OPENAI_ENDPOINT="https://yb-kor1.cognitiveservices.azure.com/"`
+`AZURE_OPENAI_API_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"`
+`AZURE_OPENAI_DEPLOYMENT="gpt-4.1-mini"`
+`api_version = "2024-12-01-preview"`
 
 - app.py 코드 수정 버튼으로 적용해줍니다. <br>
 <img width="368" height="335" alt="image" src="https://github.com/user-attachments/assets/9f9ef021-deec-401f-af49-671cdcd8aa15" /><br>
 <img width="653" height="690" alt="image" src="https://github.com/user-attachments/assets/9f589e3a-a74d-4653-a603-f024b0aaf6ea" /> <br>
-한가지 코드 API 버전을 다음과 같이 수정합니다. `api_version = "2024-12-01-preview"`
+gpt API 버전이 맞지 않는다고 하여, 옳바르게 수정합니다. `api_version = "2024-12-01-preview"`
 - html 파일도 마찬가지로, 수정 버튼으로 적용해 줍니다.<br>
 <img width="586" height="286" alt="image" src="https://github.com/user-attachments/assets/ebbbbde7-28fb-4c18-99b0-7483edb6e058" /><br>
 - 이제 app.py 로 파이선을 실행합니다. <br>
