@@ -10,37 +10,52 @@
 - VS Code의 Copilot 메뉴에 관한 기본적인 설정들을 변경해 봅니다.
 
 ## Step 1 : 기본 함수 작성
-- VS Code를 실행하고, 실습을 진행할 디렉토리를 엽니다 (좌측 상단의 Open Folder). 또는 원하는 위치에 새폴더 생성해도 됩니다.<br>
-<img width="352" height="299" alt="image" src="https://github.com/user-attachments/assets/0db4f3a0-4876-457f-98ce-cdfbbefd90a2" /> <br>
+- VS Code를 실행하고, 실습을 진행할 디렉토리를 엽니다<br>
+(좌측 상단의 File > Open Folder)<br>
+<img width="352" height="299" alt="image" src="https://github.com/user-attachments/assets/0db4f3a0-4876-457f-98ce-cdfbbefd90a2" /><br>
+작업 디렉토리로 사용할 폴더를 생성합니다.(1107-ghcp)<br>
 <img width="855" height="484" alt="image" src="https://github.com/user-attachments/assets/fb4f0a2b-a5b2-4ea0-92c8-393056d3c5df" /><br>
-- 새 파일을 생성합니다. 파일이름은 factorial.py로 생성합니다. (실습은 파이썬으로 진행)  <br>
+- 이제 파이선 코드를 만들어 봅니다.(실습은 파이썬으로 진행)<br>
+좌측 상단의 Explorer에 New File 아이콘을 눌러 파일을 생성합니다. 팩토리얼 함수를 만들것이므로 이름은 factorial.py 로 생성합니다<br>
   <img width="295" height="269" alt="image" src="https://github.com/user-attachments/assets/29e8a59b-9bec-4c50-a225-ac22f7f78497" />
 
 
-- 아래의 주석을 입력 합니다.<br>
+- 우측의 코드입력창이 나타납니다. <br>
+생성할 함수를 아래의 주석으로 입력후, 엔터를 칩니다.<br>
   `# 팩토리얼 함수 `<br>
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/874f68a8-0a1f-4dec-ba0f-0b1fbec31a21" /> <br>
-반응이 없을시 스페이스 또는 . 을 눌러서 Copilot이 깨어나도록 해주세요<br>
+잠시후 Github Copilot이 주석의 내용을 참고하여 함수를 제안해줍니다.<br>
+만약, 아무 반응이 없다면 스페이스 또는 . 을 눌러서 Copilot이 깨어나도록 해주세요<br>
 
 - 회색으로 제안된 코드를 확인하고, Tab키를 눌러서 코드를 완성합니다.<br>
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" /><br>
+첫번째 **Code 완성** 기능을 완료했습니다.<br>
+<br>
 
-- 위와 같이 코드상에서 바로 제안해주는 Inline 방식도 있으나, 제안 코드 목록을 별도의 창으로 띄워보겠습니다. (Copilot Suggestions기능)
-- `Ctrl + Shift + P`를 눌러 명령 팔레트를 열고 '`GitHub Copilot: Open Completions Panel`' 입력하여, 해당 메뉴의 우측의 톱니바퀴 모양을 눌러 키보드 단축키 설정으로 이동합니다.<br>
+### 이번에는 코드상에서 바로 제안해주는 Inline 방식 대신, 별도 창을 띄워서 코드 제안을 받는 Copilot Suggestions기능을 살펴보겠습니다.
+- 설정 창으로 이동합니다. `Ctrl + Shift + P`를 누르면 상단에 명령 팔레트가 열립니다.<br>
+'`GitHub Copilot: Open Completions Panel`' 를 입력하면 해당 메뉴 우측으로 설정(톱니바퀴 모양)을 눌러봅니다.<br>
 <img width="535" height="199" alt="image" src="https://github.com/user-attachments/assets/440ec41c-0e76-495e-9038-d565f9be6bcc" /><br>
-- 왼편의 '+' 버튼을 눌러 단축키를 설정합니다.<br>
+- 왼편의 '+' 버튼을 눌러 단축키를 설정해봅니다. 이미 설명해뒀었다면 연필모양을 눌러 단축키를 입력합니다. Ctrl+Enter 로 넣어주세요.<br>
 <img width="417" height="72" alt="image" src="https://github.com/user-attachments/assets/9601fd87-b9f9-48ec-96e4-5651cb33b75b" /><br>
+<img width="316" height="114" alt="image" src="https://github.com/user-attachments/assets/c248332f-8776-41f6-a507-496e1b4af0a3" /><br>
+엔터를 눌러 저장합니다.<br>
 
-- 잘 동작하는지를 살펴보겠습니다. factorial.py 코드로 돌아가서, 공백라인에 아래 주석을 입력합니다.<br>
+
+- 잘 동작하는지를 살펴보겠습니다. factorial.py 코드로 돌아가서, 하단에 새로운 주석을 통해 소수를 판별하는 함수를 추가해보겠습니다.<br>
   `# 소수 판별 함수`<br>
-- (코드를 수락하지 않은 상태에서) Ctrl + Enter를 눌러서 제안되는 리스트를 확인합니다.<br>
+  입력후 엔터를 치면 조금전 처럼 코드 추천이 나타납니다. <br>
+  이때 코드를 수락하지 않은 상태에서 Ctrl + Enter를 눌러서 제안되는 리스트를 확인합니다.br>
   <img width="668" height="289" alt="image" src="https://github.com/user-attachments/assets/d415a422-5cea-41db-bb2b-39fc4d8629aa" /><br>
-Accept Suggestions n을 선택하여 반영합니다.<br>
-- 파이썬 코드 정상 동작하는지 수행해봅니다. <br>
+Accept Suggestions을 통해 코드에 반영합니다.<br>
+- 파이썬 코드 정상 동작하는지 수행해봅니다.<br>
+상단의 수행버튼을 눌러보면 파이썬 코드가 실행되고, 하단의 터미널에 결과가 표시됩니다.<br>
+현재 출력은 없으며, 에러없이 수행되면 됩니다.<br>
 <img width="636" height="358" alt="image" src="https://github.com/user-attachments/assets/cab1300f-d06c-49a6-af58-54a65d0968dc" /><br>
 
 ## Step 2 : Copilot Log 확인하기
-- VS Code 하단 터미널 창 부분의 `OUTPUT` 탭에서 `GitHub Copilot`, `GitHub Copilot Chat` 에서 Copilot 관련 로그를 확인할 수 있습니다.<br>
+- VS Code 하단 터미널 창 부분의 `OUTPUT` 탭으로 이동합니다.<br>
+우측의 메뉴에서 항목을 `GitHub Copilot`, `GitHub Copilot Chat`이 나타나는것을 볼수 있습니다. Copilot 관련 로그는 여기서 각각 확인 가능합니다.<br>
 <img width="700" height="201" alt="image" src="https://github.com/user-attachments/assets/eaea1b10-a087-448a-9a3a-c29527dc5a59" />
 
 
@@ -48,9 +63,9 @@ Accept Suggestions n을 선택하여 반영합니다.<br>
 <img width="749" height="201" alt="image" src="https://github.com/user-attachments/assets/0540ccc8-4710-48f6-8a46-f376d4fd33e3" />
 <img width="749" height="200" alt="image" src="https://github.com/user-attachments/assets/36f08e92-839a-4e3a-8b9d-78344423f86d" />
 
-
-- 만약, 제안되는 코드에서 오픈소스와 매치되는 부분이 있다면, `GitHub Copilot Log(Code References)`에서 관련 로그를 볼 수 있습니다.  `// 소수 판별함수`'제안 받을 때, 이 부분에서 오픈소스의 레퍼런스 정보를 확인할 수 있습니다. <br>
-- 다만, 이것은 GitHub Copilot 관리자가 오픈소스 매치되는 코드를 제안받지 않겠다고 설정하면, 로그를 볼 수 없습니다. <br>
+- 만약, 제안되는 코드가 오픈소스와 매칭되는 부분이 있다면, `GitHub Copilot Log(Code References)`에서 관련 로그를 볼 수 있습니다.<br>
+- 다만, GitHub Copilot 관리자가 오픈소스 매칭되는 코드를 제안받지 않겠다고 설정하면, 로그를 볼 수 없습니다. <br>
+아래는 예시이며, 매칭되는 내용이 있을시 아래처럼 표기됩니다.<br>
 <img width="700" height="1168" alt="image" src="https://github.com/user-attachments/assets/2a829dd5-e75b-4a71-a5a5-9a744d2973f1" />
 
 
