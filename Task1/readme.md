@@ -66,11 +66,11 @@ Accept Suggestions을 통해 코드에 반영합니다.<br>
 - 만약, 제안되는 코드가 오픈소스와 매칭되는 부분이 있다면, `GitHub Copilot Log(Code References)`에서 관련 로그를 볼 수 있습니다.<br>
 - 다만, GitHub Copilot 관리자가 오픈소스 매칭되는 코드를 제안받지 않겠다고 설정하면, 로그를 볼 수 없습니다. <br>
 아래는 예시이며, 매칭되는 내용이 있을시 아래처럼 표기됩니다.<br>
-<img width="700" height="1168" alt="image" src="https://github.com/user-attachments/assets/2a829dd5-e75b-4a71-a5a5-9a744d2973f1" />
+<img width="700" height="1168" alt="image" src="https://github.com/user-attachments/assets/2a829dd5-e75b-4a71-a5a5-9a744d2973f1" /><br>
 
 
 ## Step 3 : 오른 마우스 Copilot 메뉴 사용하기
-- 마우스 오른 버튼을 클릭하여, 'Generate Code' 메뉴의 'generate_test'를 선택합니다.<br>
+- 마우스 오른 버튼을 클릭하여, 'Generate Code' 메뉴의 **generate_test**를 선택합니다.<br>
 <img width="500" height="558" alt="image" src="https://github.com/user-attachments/assets/777619a0-381d-4e24-b34a-ec0c867656c3" /> <br>
 - 테스트 수행할수 있는 스크립트를 자동 생성해줍니다.<br>
 <img width="700" height="415" alt="image" src="https://github.com/user-attachments/assets/7c0ebe1d-4253-4223-affa-bf6f56996fd5" /> <br>
@@ -78,44 +78,49 @@ Accept Suggestions을 통해 코드에 반영합니다.<br>
 <img width="700" height="707" alt="image" src="https://github.com/user-attachments/assets/a60d8769-29e9-4b6b-ad53-ed843dc618a6" /><br>
 
 
-- 마우스 오른 버튼을 클릭하여 'Generate Code' 메뉴의 'generate_docs'를 선택합니다.<br>
+- 마우스 오른 버튼을 클릭하여 'Generate Code' 메뉴의 **generate_docs**를 선택합니다.<br>
 주석이 생긴것을 확인하고 Accept! <br>
 <img width="442" height="463" alt="image" src="https://github.com/user-attachments/assets/747e48fe-fa66-4fcf-a8dc-5068a2c5ae04" /> <br>
 
 
 
-## Step 4 : 코드 완성 기능의 컨텍스트 이해하기
+## Step 4 : 코드 완성 기능 동작 매커니즘 이해하기
 - Copilot은 코드 완성 기능을 제공하기 위해, **주석과 함수 이름을 기반으로** 컨텍스트를 이해합니다.<br>
 - 또한, 현재 작성중인 파일의 커서 위치의 **전,후 데이터**와, 이 데이터와 유사한 데이터를 **오픈되어져 있는 주변의 탭**에서 찾아 컨텍스트를 이해합니다. (**Neighboring Tab**) <br>
-   - 코드 완성 기능에서의 Neighboring Tab 기법을 테스트하기 위해 아래 절차데로 실습합니다. 
-   - `/src` 디렉토리의 `url_tools.py`, `url.py` 파일 내용을 현재 실습하는 워크스페이스로 복사 <br>
-     <img width="605" height="243" alt="image" src="https://github.com/user-attachments/assets/15a09539-1f3e-4e1c-90ae-29758d735517" />  <br>
-     <img width="462" height="413" alt="image" src="https://github.com/user-attachments/assets/b74d77b7-6470-45ea-9758-351e9206fe77" /> <br>
+- 코드 완성 기능에서의 Neighboring Tab 기법을 테스트하기 위해 아래 절차대로 실습합니다. 
+- Task1 의 `/src` 디렉토리에 `url_tools.py`, `url.py` 파일이 있습니다. <br>
+각각의 파일을 복사하여 내 워크스페이스에 새로운 파일로 각각 만듭니다.<br>
+url.py<br>
+<img width="605" height="243" alt="image" src="https://github.com/user-attachments/assets/15a09539-1f3e-4e1c-90ae-29758d735517" />  <br>
+url_tools.py<br>
+<img width="462" height="413" alt="image" src="https://github.com/user-attachments/assets/b74d77b7-6470-45ea-9758-351e9206fe77" /> <br>
 
-   - 복사된 `url_utils.py` 파일은 오픈된 상태로 두고, `url.py` 파일의 마지막 라인에서 키보드의 Enter를 누르면 아래와 같이 url_tools.py의 함수가 제안됩니다.<br>   
-     <img width="642" height="370" alt="image" src="https://github.com/user-attachments/assets/3e71e41d-c92b-4b24-8a2d-2607a5c352e8" />
+- `url_utils.py` 파일은 오픈된 상태로 두고, `url.py` 파일의 마지막 라인에서 커버를 두고  Enter를 누르면 아래와 같이 url_tools.py의 함수가 제안됩니다.<br>   
+<img width="642" height="370" alt="image" src="https://github.com/user-attachments/assets/3e71e41d-c92b-4b24-8a2d-2607a5c352e8" />
 
 
 
 ## Step 5 : VS Code의 Copilot 설정 메뉴
-- VS Code에서 Ctrl + Shift + P를 눌러 명령 팔레트를 열고, 'preference'을 검색하여, `Preference: Open Settings (UI)`를 선택합니다.<br>
-    <img width="527" height="301" alt="image" src="https://github.com/user-attachments/assets/3b23d8ae-82c2-430c-8b77-3481cb5f6f94" /><br>
+- Copilot의 기본 언어를 한국어로 바꿔보겠습니다. <br>
+VS Code에서 Ctrl + Shift + P를 눌러 명령 팔레트를 열고, 'preference'을 검색하여, `Preference: Open Settings (UI)`를 선택합니다.<br>
+<img width="527" height="301" alt="image" src="https://github.com/user-attachments/assets/3b23d8ae-82c2-430c-8b77-3481cb5f6f94" /><br>
 
-- Copilot locale을 검색하고, 'ko'로 변경합니다.<br>
-    <img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" /><br>
+- 상단에서 검색어로 Copilot locale을 검색하고, 'ko'로 변경합니다.<br>
+<img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" /><br>
+자동저장됩니다.<br>
 
-- Experimental 기능인 `NES(Next Edit Suggestion)`을 활성화/비활성화 해봅니다.<br>
-검색창에 `copilot next edit` 이라 입력하고, 활성화 기능을 채크합니다.<br>
-    <img width="672" height="282" alt="image" src="https://github.com/user-attachments/assets/4425799a-bd33-41dc-a9ef-3716ce78e163" /><br>
+- Copilot이 코드를 제안시 앞뒤 문맥이 변경되었을때 연결된 뒤 코드도 연결해서 수정해주는 기능을 제공합니다. `NES(Next Edit Suggestion)` 기능을 활성화/비활성화 할수 있습니다.<br>
+검색창에 `copilot next edit` 이라 입력하고, 활성화 기능을 조정할수 있습니다.<br>
+Default는 Enable이 되어 있습니다<br>
+<img width="672" height="282" alt="image" src="https://github.com/user-attachments/assets/4425799a-bd33-41dc-a9ef-3716ce78e163" /><br><br>
 
-- Code 완성 기능의 기본 모델을 변경해 봅니다.<br>
-  - 상단의 Copilot 아이콘을 클릭하고, `Configure Code completion`을 선택합니다.<br>
-   <img width="662" height="186" alt="image" src="https://github.com/user-attachments/assets/8a3dc99c-4df5-477e-96cf-63026e795288" /><br>
-
-  'Change completion model'을 선택합니다.<br>
-  <img width="296" height="183" alt="image" src="https://github.com/user-attachments/assets/56c9f3e3-90ca-4b54-be34-bdd7ed6c6f44" /> <br>
-  - 모델을 변경할수 있습니다. (권한에 따라 보이는 모델은 다릅니다) <br>
-    <img width="420" height="132" alt="image" src="https://github.com/user-attachments/assets/9f2b1a9f-4680-4887-a79f-212990c977fd" /><br>
+- Code 완성 기능에서 사용되는 LLM 기본 모델을 변경해 봅니다.<br>
+- 상단의 Copilot 아이콘의 우측 아래화살표를 클릭하고, `Configure Code completion`을 선택합니다.<br>
+<img width="662" height="186" alt="image" src="https://github.com/user-attachments/assets/8a3dc99c-4df5-477e-96cf-63026e795288" /><br>
+'Change completion model'을 선택합니다.<br>
+<img width="296" height="183" alt="image" src="https://github.com/user-attachments/assets/56c9f3e3-90ca-4b54-be34-bdd7ed6c6f44" /> <br>
+- 모델을 변경할수 있습니다. (현재는 gpt4.1 모델이 보이며, 시점/권한에 따라 보이는 모델은 다를수 있습니다.) <br>
+<img width="289" height="87" alt="image" src="https://github.com/user-attachments/assets/2428ed67-8542-4d8d-951e-d1ab01fbea4f" /><br>
 
 
 
