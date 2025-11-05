@@ -69,8 +69,8 @@ Accept Suggestions을 통해 코드에 반영합니다.<br>
 <img width="700" height="1168" alt="image" src="https://github.com/user-attachments/assets/2a829dd5-e75b-4a71-a5a5-9a744d2973f1" /><br>
 
 
-## Step 3 : 오른 마우스 Copilot 메뉴 사용하기
-- 마우스 오른 버튼을 클릭하여, 'Generate Code' 메뉴의 **generate_test**를 선택합니다.<br>
+## Step 3 : 우클릭 마우스 Copilot 메뉴 사용하기
+- 소스코드를 선택후, 마우스 우클릭 버튼을 클릭하여, 'Generate Code' 메뉴의 **generate_test**를 선택합니다.<br>
 <img width="500" height="558" alt="image" src="https://github.com/user-attachments/assets/777619a0-381d-4e24-b34a-ec0c867656c3" /> <br>
 - 테스트 수행할수 있는 스크립트를 자동 생성해줍니다.<br>
 <img width="700" height="415" alt="image" src="https://github.com/user-attachments/assets/7c0ebe1d-4253-4223-affa-bf6f56996fd5" /> <br>
