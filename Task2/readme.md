@@ -82,7 +82,7 @@ Copilot Chat과 마찬가지로, Chat에서 제안받을 LLM 모델을 선택할
   - `Workspace settings(JSON)`을 선택합니다.<br>
     <img width="445" height="127" alt="image" src="https://github.com/user-attachments/assets/f1a94015-eb25-4995-969f-4a4dc6c02280" /> <br>
 
-  - 설정 JSON 파일을 열고, 'github.copilot.chat.codeGeneration.instructions' 을 설정해봅니다.<br>
+  - 설정 JSON 파일을 열고, 'github.copilot.chat.codeGeneration.instructions' 을 설정을 추가합니다.<br>
   <img width="363" height="87" alt="image" src="https://github.com/user-attachments/assets/3af6ea94-7a6f-4141-96ad-5bb6af790837" /> <br>
     <img width="486" height="230" alt="image" src="https://github.com/user-attachments/assets/bc0ea122-af20-4c8c-87fd-bba89c2e4dc5" /> <br>
 `{
