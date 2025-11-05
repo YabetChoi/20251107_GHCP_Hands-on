@@ -1,4 +1,4 @@
-import urls_tools
+import url_tools
 
 def manageUrls(urls, action):
     """
