@@ -3,6 +3,8 @@
 - 채팅앱에 생성형 LLM을 통해 답변을 받도록 기능을 추가합니다.
 - 음성 인식 기능과 음성 출력 기능을 추가합니다.
 
+(주의) 코드 생성되는 방식은 개인마다 다르며 아래 예시와도 다릅니다. 실습자는 Copilot Chat과 대화하며 질문/답변/수정해 가며 앱을 완성하는것을 목표로 합니다.<br>
+ 
 ## 1) 로컬에서 간단한 웹앱을 생성 합니다.
 - VS Code 우측 상단의 Copilot 아이콘을 선택하여, Copilot Chat을 엽니다. <br>
 <img width="260" height="130" alt="image" src="https://github.com/user-attachments/assets/a902531e-ca2b-42cd-9d85-13e0cb8e16aa" /><br>
