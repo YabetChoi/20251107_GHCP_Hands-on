@@ -12,18 +12,20 @@
 - `Review and Comment`에 Custom instruction을 제공하여, 원하는 형태로 리뷰를 받아 봅니다.
 
 ## Step 1: 가위, 바위, 보 게임 만들기
-- Copilot Chat을 이용하여, 가위, 바위, 보 게임을 만들 수 있는 코드를 요청합니다.
-- 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터와 대결하는 로직을 추가합니다.
-- 사용자가 선택한 가위, 바위, 보와 컴퓨터의 선택을 비교하여 승패를 결정하는 로직을 추가합니다.
-- 사용자가 게임을 계속할 것인지 종료할 것인지 선택할 수 있는 로직을 추가합니다.<br><br>
+- Copilot Chat을 이용하여, 가위, 바위, 보 게임을 만들 수 있는 코드를 요청합니다.<br>
+사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터와 대결하는 로직으로 구성합니다.<br>
 - 먼저 "가위바위보.py" 새파일을 만듭니다.<br>
 <img width="269" height="253" alt="image" src="https://github.com/user-attachments/assets/9252f597-1df4-4449-ac6c-19fc0ca0c958" /><br>
 
 - **Copilot Chat**을 실행합니다. <br>
-   <img width="907" height="263" alt="image" src="https://github.com/user-attachments/assets/9b2f1c9d-1f5c-49b0-a5a2-a38d1b77ec3f" /><br>
-- 예시 문구) <br>
-가위,바위, 보 게임을 만든다. 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터는 무작위로 선택한다.
-사용자의 선택과 컴퓨터의 선택을 비교하여 승패를 결정한다. 사용자가 이기면 "You Win!", 컴퓨터가 이기면 "You lose", 비기면 "Its a tie!"를 출력한다. 사용자가 "exit"를 입력하면 게임을 종료한다.<br>
+우측 상단의 대화아이콘을 클릭하면, 대화형 Chat 창이 열립니다.<br>
+<img width="907" height="263" alt="image" src="https://github.com/user-attachments/assets/9b2f1c9d-1f5c-49b0-a5a2-a38d1b77ec3f" /><br>
+- 이미 채팅창이 띄워진 경우라면, 새로운 채팅으로 시작합니다.<br>
+<img width="409" height="80" alt="image" src="https://github.com/user-attachments/assets/c5b02776-e038-4da3-a1cf-9c7c46985952" /><br>
+
+- 채팅 창에 아래의 문구를 입력합니다.<br>
+`가위,바위, 보 게임을 만든다. 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터는 무작위로 선택한다.
+사용자의 선택과 컴퓨터의 선택을 비교하여 승패를 결정한다. 사용자가 이기면 "You Win!", 컴퓨터가 이기면 "You lose", 비기면 "Its a tie!"를 출력한다. 사용자가 "exit"를 입력하면 게임을 종료한다.`<br>
 <img width="650" height="657" alt="image" src="https://github.com/user-attachments/assets/7bb0e676-2759-44f3-aa06-a89c49254deb" /> <br>
 - 생성한 코드를 삽입합니다. <br>
 <img width="192" height="128" alt="image" src="https://github.com/user-attachments/assets/ae15f102-aedf-4a13-b930-3f932cc69310" /> <br>
