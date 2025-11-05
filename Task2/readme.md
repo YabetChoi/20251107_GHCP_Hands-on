@@ -22,6 +22,9 @@
 <img width="907" height="263" alt="image" src="https://github.com/user-attachments/assets/9b2f1c9d-1f5c-49b0-a5a2-a38d1b77ec3f" /><br>
 - 이미 채팅창이 띄워진 경우라면, 새로운 채팅으로 시작합니다.<br>
 <img width="409" height="80" alt="image" src="https://github.com/user-attachments/assets/c5b02776-e038-4da3-a1cf-9c7c46985952" /><br>
+- 참조하는 파일 코드가 이미 있다면, X로 제외를 시킵니다.<br>
+그리고 Chat 모드는 **Ask**로 변경해줍니다. (Agent 모드는 Task3에서 실습합니다)<br>
+<img width="431" height="133" alt="image" src="https://github.com/user-attachments/assets/5c41d1f4-d710-41e4-889d-b43431ac5f7e" /><br>
 
 - 채팅 창에 아래의 문구를 입력합니다.<br>
 `가위,바위, 보 게임을 만든다. 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터는 무작위로 선택한다.
