@@ -6,6 +6,12 @@
 ## 1) 로컬에서 간단한 웹앱을 생성 합니다.
 - VS Code 우측 상단의 Copilot 아이콘을 선택하여, Copilot Chat을 엽니다. <br>
 <img width="260" height="130" alt="image" src="https://github.com/user-attachments/assets/a902531e-ca2b-42cd-9d85-13e0cb8e16aa" /><br>
+- 이미 채팅창이 띄워진 경우라면, 새로운 채팅으로 시작합니다.<br>
+<img width="409" height="80" alt="image" src="https://github.com/user-attachments/assets/c5b02776-e038-4da3-a1cf-9c7c46985952" /><br>
+- 참조하는 파일 코드가 이미 있다면, X로 제외를 시킵니다.<br>
+그리고 Chat 모드는 **Ask**로 변경해줍니다. (Agent 모드는 Task3에서 실습합니다)<br>
+<img width="431" height="133" alt="image" src="https://github.com/user-attachments/assets/5c41d1f4-d710-41e4-889d-b43431ac5f7e" /><br>
+
 - 간단한 파이썬 웹앱 코드를 생성해달라고 Copilot Chat에 입력합니다. <br>
 `파이썬 코드로, 내 랩탑에서 웹화면을 띄워주는 코드를 만들어주고, 상단에는 사용자 Input을 받고 아래는 send 버튼을 만들어줘` <br>
 <img width="382" height="51" alt="image" src="https://github.com/user-attachments/assets/f45b1c23-6468-4181-8868-100ee1e66827" /><br>
