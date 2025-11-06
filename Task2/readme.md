@@ -12,6 +12,7 @@
 - `Review`에 Custom instruction을 제공하여, 원하는 형태로 리뷰를 받아 봅니다.
 
 ## Step 1: 가위, 바위, 보 게임 만들기
+### Copilot Chat 시작하기
 - Copilot Chat을 이용하여, 가위, 바위, 보 게임을 만들 수 있는 코드를 요청합니다.<br>
 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터와 대결하는 로직으로 구성합니다.<br>
 - 먼저 "가위바위보.py" 새파일을 만듭니다.<br>
@@ -26,6 +27,7 @@
 그리고 Chat 모드는 **Ask**로 변경해줍니다. (Agent 모드는 Task3에서 실습합니다)<br>
 <img width="431" height="133" alt="image" src="https://github.com/user-attachments/assets/5c41d1f4-d710-41e4-889d-b43431ac5f7e" /><br>
 
+### 게임 코드 생성 및 적용
 - 채팅 창에 아래의 문구를 입력합니다.<br>
 `가위,바위, 보 게임을 만든다. 사용자가 가위,바위,보 중 하나를 선택하고, 컴퓨터는 무작위로 선택한다.
 사용자의 선택과 컴퓨터의 선택을 비교하여 승패를 결정한다. 사용자가 이기면 "You Win!", 컴퓨터가 이기면 "You lose", 비기면 "Its a tie!"를 출력한다. 사용자가 "exit"를 입력하면 게임을 종료한다.`<br>
@@ -41,6 +43,7 @@
 <img width="286" height="187" alt="image" src="https://github.com/user-attachments/assets/b0af0d64-8548-45a6-86b2-59e785e7708d" /><br>
 <img width="817" height="218" alt="image" src="https://github.com/user-attachments/assets/52fde1c8-e681-43ed-8cd6-58e000cc5bef" /><br>
 
+### Inline Chat 기능 사용
 - Copilot Chat과 동일한 기능을 코드상에서 direct로 띄워보는 **Inline Chat** 기능을 사용해봅니다.<br>
 가위바위보.py 코드에서 일부 영역을 선택하고(While True)  `Ctrl + I` 버튼을 눌러봅니다.<br>
 Inline 챗 창이 열리면 지시를 입력할 수 있으며 `for 문으로 바꿔줘` 라고 입력해봅니다.<br>
@@ -55,6 +58,7 @@ Inline 챗 창이 열리면 지시를 입력할 수 있으며 `for 문으로 바
 
 
 ## Step 2 : Lizard, Spock 추가하기
+### Vision 기능으로 이미지 기반 코드 생성
 - 만들어진 게임에 추가로 Lizard, Spock의 로직을 Copilot을 활용하여 추가합니다.<br>
    <img width="400" alt="image" src="https://github.com/user-attachments/assets/f48ab55c-8f55-4fda-b075-37a5c0cb21d9" /> <br>
 
@@ -89,9 +93,9 @@ Inline 챗 창이 열리면 지시를 입력할 수 있으며 `for 문으로 바
 - 제안된 코드를 적용해봅니다. <br>
 <img width="539" height="380" alt="image" src="https://github.com/user-attachments/assets/d22dafac-da1c-4f9d-bf8b-8d2cad280fe9" /><br><br>
 
-- 코딩의 규칙을 사용자가 정의된 기준을 적용하여 코드 Review 할수 있습니다.<br>
-가령, 개발팀별 코딩 가이드라인이있을수 있습니다<br> 
-Copilot에서는 **Custom Instruction** 기능이라 지칭합니다<br>
+### Custom Instruction 설정
+- 코딩 규칙을 사용자의 기준으로 Review 할수 있습니다. (가령, 개발팀별 코딩 가이드 라인)<br> 
+Copilot에서는 **Custom Instruction** 기능을 통해 사용자의 규칙을 추가할수 있습니다.<br>
 - Ctrl + Shift + P를 눌러서 명령 팔레트를 엽니다.<br>
 - `Workspace settings(JSON)`을 선택합니다.<br>
 .vscode 에 저장되는 settings.json 파일을 통해 사용자 규칙을 추가할수 있습니다.<br>
