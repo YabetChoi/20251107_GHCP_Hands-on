@@ -83,8 +83,12 @@ gpt API 버전이 맞지 않는다고 하여, 옳바르게 수정합니다. `api
 AZURE_SPEECH_REGION="koreacentral"`<br>
 - Copilot의 가이드 대로 질문/답변을 반복해 나가면서 최종적으로 app.py 파일을 완성해보고, 파이썬 파일을 수행해봅니다. <br>
 <img width="550" height="202" alt="image" src="https://github.com/user-attachments/assets/20a0e25d-4b4e-4765-9940-fb39cc0938b2" /><br>
-<img width="548" height="384" alt="image" src="https://github.com/user-attachments/assets/e4d00d05-6956-461a-bdf0-a7ec94b6834c" /><br>
-질문의 답변을 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 됐습니다.<br>
+<img width="548" height="384" alt="image" src="https://github.com/user-attachments/assets/e4d00d05-6956-461a-bdf0-a7ec94b6834c" /><br><br>
+- 이제 Text 결과도 음성으로 함께 출력하는 기능을 붙여봅니다.<br>
+Copilot Chat에 다음과 같이 요청해봅니다.<br>
+> 자 이제, 출력된 Text를 Speech로 목소리로도 출력하는 것을 추가해줘<br>
+<img width="279" height="580" alt="image" src="https://github.com/user-attachments/assets/b9efec27-dd4d-48d9-8250-2e8cbf08148f" /><br>
+- 질문의 답변을 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 됐습니다.<br>
 (참고) 다른 음성 목소리로도 바꿔봅니다.<br>
 
 
