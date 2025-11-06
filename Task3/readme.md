@@ -106,7 +106,7 @@ gpt API 버전이 맞지 않는다면 맞게 수정합니다. `api_version = "20
 ### 3-3. 음성 출력 기능 추가
 - 이제 Text 결과도 음성으로 함께 출력하는 기능을 붙여봅니다.<br>
 Copilot Chat에 다음과 같이 요청해봅니다.<br>
-> 자 이제, 출력된 Text를 Speech로 목소리로도 출력하는 것을 추가해줘
+`자 이제, 출력된 Text를 Speech로 목소리로도 출력하는 것을 추가해줘`
 <img width="279" height="580" alt="image" src="https://github.com/user-attachments/assets/b9efec27-dd4d-48d9-8250-2e8cbf08148f" /><br>
 - 질문의 답변이 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 되었습니다 .<br>
 
