@@ -10,11 +10,13 @@
 - VS Code의 Copilot 메뉴에 관한 기본적인 설정들을 변경해 봅니다.
 
 ## Step 1 : 기본 함수 작성
+### 1.1 작업 환경 설정
 - VS Code를 실행하고, 실습을 진행할 디렉토리를 엽니다<br>
 (좌측 상단의 File > Open Folder)<br>
 <img width="352" height="299" alt="image" src="https://github.com/user-attachments/assets/0db4f3a0-4876-457f-98ce-cdfbbefd90a2" /><br>
 작업 디렉토리로 사용할 폴더를 생성합니다.(1107-ghcp)<br>
 <img width="855" height="484" alt="image" src="https://github.com/user-attachments/assets/fb4f0a2b-a5b2-4ea0-92c8-393056d3c5df" /><br>
+### 1.2 파이썬 파일 생성 및 함수 작성
 - 이제 파이선 코드를 만들어 봅니다.(실습은 파이썬으로 진행)<br>
 좌측 상단의 Explorer에 New File 아이콘을 눌러 파일을 생성합니다. 팩토리얼 함수를 만들것이므로 이름은 factorial.py 로 생성합니다<br>
   <img width="295" height="269" alt="image" src="https://github.com/user-attachments/assets/29e8a59b-9bec-4c50-a225-ac22f7f78497" />
@@ -31,8 +33,8 @@
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" /><br>
 첫번째 **Code 완성** 기능을 완료했습니다.<br>
 <br>
-
-### 이번에는 코드상에서 바로 제안해주는 Inline 방식 대신, 별도 창을 띄워서 코드 제안을 받는 Copilot Suggestions기능을 살펴보겠습니다.
+### 1.3 Copilot Suggestions 기능 설정
+이번에는 코드상에서 바로 제안해주는 Inline 방식 대신, 별도 창을 띄워서 코드 제안을 받는 Copilot Suggestions기능을 살펴보겠습니다.<br>
 - 설정 창으로 이동합니다. `Ctrl + Shift + P`를 누르면 상단에 명령 팔레트가 열립니다.<br>
 '`GitHub Copilot: Open Completions Panel`' 를 입력하면 해당 메뉴 우측으로 설정(톱니바퀴 모양)을 눌러봅니다.<br>
 <img width="535" height="199" alt="image" src="https://github.com/user-attachments/assets/440ec41c-0e76-495e-9038-d565f9be6bcc" /><br>
@@ -41,7 +43,7 @@
 <img width="316" height="114" alt="image" src="https://github.com/user-attachments/assets/c248332f-8776-41f6-a507-496e1b4af0a3" /><br>
 엔터를 눌러 저장합니다.<br>
 
-
+### 1.4 소수 판별 함수 추가
 - 잘 동작하는지를 살펴보겠습니다. factorial.py 코드로 돌아가서, 하단에 새로운 주석을 통해 소수를 판별하는 함수를 추가해보겠습니다.<br>
   `# 소수 판별 함수`<br>
   입력후 엔터를 치면 조금전 처럼 코드 추천이 나타납니다. <br>
@@ -70,6 +72,7 @@ Accept Suggestions을 통해 코드에 반영합니다.<br>
 
 
 ## Step 3 : 우클릭 마우스 Copilot 메뉴 사용하기
+### 3.1 테스트 코드 생성
 - 소스코드를 선택후, 마우스 우클릭 버튼을 클릭하여, 'Generate Code' 메뉴의 **generate_test**를 선택합니다.<br>
 <img width="500" height="558" alt="image" src="https://github.com/user-attachments/assets/777619a0-381d-4e24-b34a-ec0c867656c3" /> <br>
 - 테스트 수행할수 있는 스크립트를 자동 생성해줍니다.<br>
@@ -77,7 +80,7 @@ Accept Suggestions을 통해 코드에 반영합니다.<br>
 -동작 정상 확인 <br>
 <img width="700" height="707" alt="image" src="https://github.com/user-attachments/assets/a60d8769-29e9-4b6b-ad53-ed843dc618a6" /><br>
 
-
+### 3.2 문서 생성
 - 마우스 오른 버튼을 클릭하여 'Generate Code' 메뉴의 **generate_docs**를 선택합니다.<br>
 주석이 생긴것을 확인하고 Accept! <br>
 <img width="442" height="463" alt="image" src="https://github.com/user-attachments/assets/747e48fe-fa66-4fcf-a8dc-5068a2c5ae04" /> <br>
@@ -85,8 +88,11 @@ Accept Suggestions을 통해 코드에 반영합니다.<br>
 
 
 ## Step 4 : 코드 완성 기능 동작 매커니즘 이해하기
+### 4.1 컨텍스트 이해 방식
 - Copilot은 코드 완성 기능을 제공하기 위해, **주석과 함수 이름을 기반으로** 컨텍스트를 이해합니다.<br>
 - 또한, 현재 작성중인 파일의 커서 위치의 **전,후 데이터**와, 이 데이터와 유사한 데이터를 **오픈되어져 있는 주변의 탭**에서 찾아 컨텍스트를 이해합니다. (**Neighboring Tab**) <br>
+
+### 4.2 Neighboring Tab 기법 테스트
 - 코드 완성 기능에서의 Neighboring Tab 기법을 테스트하기 위해 아래 절차대로 실습합니다. 
 - Task1 의 `/src` 디렉토리에 `url_tools.py`, `url.py` 파일이 있습니다. <br>
 각각의 파일을 복사하여 내 워크스페이스에 새로운 파일로 각각 만듭니다.<br>
@@ -101,6 +107,7 @@ url_tools.py<br>
 
 
 ## Step 5 : VS Code의 Copilot 설정 메뉴
+### 5.1 언어 설정 변경
 - Copilot의 기본 언어를 한국어로 바꿔보겠습니다. <br>
 VS Code에서 Ctrl + Shift + P를 눌러 명령 팔레트를 열고, 'preference'을 검색하여, `Preference: Open Settings (UI)`를 선택합니다.<br>
 <img width="527" height="301" alt="image" src="https://github.com/user-attachments/assets/3b23d8ae-82c2-430c-8b77-3481cb5f6f94" /><br>
@@ -109,11 +116,13 @@ VS Code에서 Ctrl + Shift + P를 눌러 명령 팔레트를 열고, 'preference
 <img width="419" height="439" alt="image" src="https://github.com/user-attachments/assets/cefdec05-ec30-483b-92a2-2b79e4813373" /><br>
 자동저장됩니다.<br>
 
+### 5.2 NES(Next Edit Suggestion) 기능 설정
 - Copilot이 코드를 제안시 앞뒤 문맥이 변경되었을때 연결된 뒤 코드도 연결해서 수정해주는 기능을 제공합니다. `NES(Next Edit Suggestion)` 기능을 활성화/비활성화 할수 있습니다.<br>
 검색창에 `copilot next edit` 이라 입력하고, 활성화 기능을 조정할수 있습니다.<br>
 Default는 Enable이 되어 있습니다<br>
 <img width="672" height="282" alt="image" src="https://github.com/user-attachments/assets/4425799a-bd33-41dc-a9ef-3716ce78e163" /><br><br>
 
+### 5.3 LLM 모델 변경
 - Code 완성 기능에서 사용되는 LLM 기본 모델을 변경해 봅니다.<br>
 - 상단의 Copilot 아이콘의 우측 아래화살표를 클릭하고, `Configure Code completion`을 선택합니다.<br>
 <img width="662" height="186" alt="image" src="https://github.com/user-attachments/assets/8a3dc99c-4df5-477e-96cf-63026e795288" /><br>
