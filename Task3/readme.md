@@ -111,13 +111,13 @@ Copilot Chat에 다음과 같이 요청해봅니다.<br>
 - 질문의 답변이 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 되었습니다 .<br>
 
 ### 3-4. 음성 커스터마이징 (추가 미션)
-- (참고) Azure에서는 다양한 한국어 음성을 지원하고 있고, 다양한 언어를 읽을수 있습니다. 추가 미션으로 목소리를 다르게 바꿔달라고 요청해봅니다.<br>
-<img width="278" height="600" alt="image" src="https://github.com/user-attachments/assets/5a6d784e-42be-4b02-b7d8-d7dc6932697e" />
+- (참고) Azure에서는 다양한 한국어 음성을 지원하고 있고, 다양한 언어를 읽을수 있습니다. 추가 미션으로 목소리를 다르게 바꿔달라고 요청해봅니다.
+<img width="278" height="600" alt="image" src="https://github.com/user-attachments/assets/5a6d784e-42be-4b02-b7d8-d7dc6932697e" /><br>
 
 
 ## 4단계: Copilot Chat Agent 모드 실습
 ### 4-1. Agent 모드 시작
-- 새로운 Copilot Chat창을 열어 봅니다.(이미 열려있는 Chat창이라면, 상단의 **+**버튼으로 새롭게 시작)<br>
+- 새로운 Copilot Chat창을 열어 봅니다.(이미 열려있는 Chat창이라면, 상단의 +버튼으로 새롭게 시작)<br>
 - Chat모드는 **Agent**를 선택합니다.<br>
 <img width="187" height="411" alt="image" src="https://github.com/user-attachments/assets/1896e79b-40d4-4214-8319-2fcd004dab78" /><br>
 
@@ -144,8 +144,9 @@ Copilot Chat에 다음과 같이 요청해봅니다.<br>
 > - **Agent 모드**: AI가 자율적으로 전체 작업을 계획하고 파일을 생성하여 완성된 결과물 제공
 > 
 > 복잡한 프로젝트 시작 시에는 Agent 모드가, 기존 코드 수정이나 세부 조정에는 Ask 모드가 더 적합합니다.
+<br>
 
-Task3을 모두 완료하였습니다.<br><br>
+Task3을 모두 완료 하였습니다.<br><br>
 
 
 
