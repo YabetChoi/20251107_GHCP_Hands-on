@@ -95,18 +95,20 @@ gpt API 버전이 맞지 않는다면 맞게 수정합니다. `api_version = "20
 - .env 파일에 음성서비스 API키를 추가합니다. <br>
 <img width="386" height="133" alt="image" src="https://github.com/user-attachments/assets/e0da1201-1323-4a5d-9c3a-4ad548ce0406" /><br>
 <img width="732" height="363" alt="image" src="https://github.com/user-attachments/assets/8cd76c04-1b30-4c8f-8574-c92f896e8672" /><br>
-`AZURE_SPEECH_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"
-AZURE_SPEECH_REGION="koreacentral"`<br>
+`AZURE_SPEECH_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"`<br>
+`AZURE_SPEECH_REGION="koreacentral"`<br>
 - Copilot의 가이드 대로 질문/답변을 반복해 나가면서 최종적으로 app.py 파일을 완성해보고, 파이썬 파일을 수행해봅니다. <br>
 <img width="550" height="202" alt="image" src="https://github.com/user-attachments/assets/20a0e25d-4b4e-4765-9940-fb39cc0938b2" /><br>
-<img width="548" height="384" alt="image" src="https://github.com/user-attachments/assets/e4d00d05-6956-461a-bdf0-a7ec94b6834c" /><br><br>
+<img width="548" height="384" alt="image" src="https://github.com/user-attachments/assets/e4d00d05-6956-461a-bdf0-a7ec94b6834c" /><br>
+마이크를 통해 음성이 정상적으로 타이핑되었다면 성공입니다. 
+<br>
 
 ### 3-3. 음성 출력 기능 추가
 - 이제 Text 결과도 음성으로 함께 출력하는 기능을 붙여봅니다.<br>
 Copilot Chat에 다음과 같이 요청해봅니다.<br>
-> 자 이제, 출력된 Text를 Speech로 목소리로도 출력하는 것을 추가해줘<br>
+> 자 이제, 출력된 Text를 Speech로 목소리로도 출력하는 것을 추가해줘
 <img width="279" height="580" alt="image" src="https://github.com/user-attachments/assets/b9efec27-dd4d-48d9-8250-2e8cbf08148f" /><br>
-- 질문의 답변을 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 됐습니다.<br>
+- 질문의 답변이 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 되었습니다 .<br>
 
 ### 3-4. 음성 커스터마이징 (추가 미션)
 - (참고) Azure에서는 다양한 한국어 음성을 지원하고 있고, 다양한 언어를 읽을수 있습니다. 추가 미션으로 목소리를 다르게 바꿔달라고 요청해봅니다.<br>
