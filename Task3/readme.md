@@ -89,7 +89,9 @@ Copilot Chat에 다음과 같이 요청해봅니다.<br>
 > 자 이제, 출력된 Text를 Speech로 목소리로도 출력하는 것을 추가해줘<br>
 <img width="279" height="580" alt="image" src="https://github.com/user-attachments/assets/b9efec27-dd4d-48d9-8250-2e8cbf08148f" /><br>
 - 질문의 답변을 텍스트 + 음성으로 함께 나온다면 성공적으로 완료 됐습니다.<br>
-(참고) 다른 음성 목소리로도 바꿔봅니다.<br>
+- (참고) Azure에서는 다양한 한국어 음성을 지원하고 있고, 다양한 언어를 읽을수 있습니다. 추가 미션으로 목소리를 다르게 바꿔달라고 요청해봅니다.<br>
+<img width="278" height="600" alt="image" src="https://github.com/user-attachments/assets/5a6d784e-42be-4b02-b7d8-d7dc6932697e" />
+
 
 
 
@@ -107,7 +109,9 @@ Copilot Chat에 다음과 같이 요청해봅니다.<br>
 app.py를 실행하여, local에서 웹서비스를 띄워봅니다.<br>
 <img width="538" height="208" alt="image" src="https://github.com/user-attachments/assets/b08b1694-e32e-4100-9d7d-0850d2c646f9" /><br>
 정상적으로 접속이 됩니다.<br>
-<img width="457" height="476" alt="image" src="https://github.com/user-attachments/assets/8b524316-cff9-45ca-abee-bcf9171ad113" /><br>
+<img width="457" height="476" alt="image" src="https://github.com/user-attachments/assets/8b524316-cff9-45ca-abee-bcf9171ad113" /><br><br>
+
+Task3을 모두 완료하였습니다.<br><br>
 
 
 
