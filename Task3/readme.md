@@ -12,7 +12,7 @@
 - 이미 채팅창이 띄워진 경우라면, 새로운 채팅으로 시작합니다.<br>
 <img width="409" height="80" alt="image" src="https://github.com/user-attachments/assets/c5b02776-e038-4da3-a1cf-9c7c46985952" /><br>
 - 참조하는 파일 코드가 이미 있다면, X로 제외를 시킵니다.<br>
-그리고 Chat 모드는 **Ask**로 변경해줍니다. (Agent 모드는 Task3에서 실습합니다)<br>
+그리고 Chat 모드는 **Ask**로 변경해줍니다. (Agent 모드는 Task3 마지막에서 실습합니다)<br>
 <img width="431" height="133" alt="image" src="https://github.com/user-attachments/assets/5c41d1f4-d710-41e4-889d-b43431ac5f7e" /><br>
 
 - 간단한 파이썬 웹앱 코드를 생성해달라고 Copilot Chat에 입력합니다. <br>
@@ -29,6 +29,7 @@ app.py, index.html등 <br>
 - app.py를 열어보고, 실행해봅니다.<br>
 <img width="910" height="386" alt="image" src="https://github.com/user-attachments/assets/54cb6613-9260-4ffe-9734-dfb7860258ef" /> <br>
 - 유사한 다른 에러가 발생했다면 필요한 조치를 Copilot Chat에 에러를 넣고 물어봅니다. <br>
+이미지를 캡쳐하여 Chat에 붙여넣어도 됩니다<br>
 <img width="560" height="242" alt="image" src="https://github.com/user-attachments/assets/99c9b487-c42b-40b9-8a34-12ff4923d1c5" /><br>
 <img width="383" height="325" alt="image" src="https://github.com/user-attachments/assets/6c761286-addb-45a2-8deb-bc39842ac0ee" /> <br>
 <img width="552" height="198" alt="image" src="https://github.com/user-attachments/assets/3cb241b0-ba38-4235-ad2b-e6d6b7442d4d" /> <br>
@@ -48,10 +49,10 @@ app.py, index.html등 <br>
 - Azure OpenAI API정보등을 담을 .env 파일을 생성합니다. <br>
 <img width="602" height="128" alt="image" src="https://github.com/user-attachments/assets/91539831-ec72-41c9-abeb-140aecedb8ee" /><br>
 <img width="269" height="284" alt="image" src="https://github.com/user-attachments/assets/96fefc83-cc3e-4a95-9e8a-605364ca8b65" /><br>
-`AZURE_OPENAI_ENDPOINT="https://yb-kor1.cognitiveservices.azure.com/"`
-`AZURE_OPENAI_API_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"`
-`AZURE_OPENAI_DEPLOYMENT="gpt-4.1-mini"`
-`api_version = "2024-12-01-preview"`
+`AZURE_OPENAI_ENDPOINT="https://yb-kor1.cognitiveservices.azure.com/"`<br>
+`AZURE_OPENAI_API_KEY="92GIEd0hxEU0NGlpiKunk2ZlFdbzQJWzo1K05qo2lmThFD3hLDqyJQQJ99BIACNns7RXJ3w3AAAAACOGmjUy"`<br>
+`AZURE_OPENAI_DEPLOYMENT="gpt-4.1-mini"`<br>
+`api_version = "2024-12-01-preview"`<br>
 
 - app.py 코드 수정 버튼으로 적용해줍니다. <br>
 <img width="368" height="335" alt="image" src="https://github.com/user-attachments/assets/9f9ef021-deec-401f-af49-671cdcd8aa15" /><br>
