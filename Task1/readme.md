@@ -31,8 +31,8 @@
 
 - 회색으로 제안된 코드를 확인하고, Tab키를 눌러서 코드를 완성합니다.<br>
 <img width="242" height="104" alt="image" src="https://github.com/user-attachments/assets/1825fce9-3a29-49c0-a560-6780d7d3241e" /><br>
-첫번째 **Code 완성** 기능을 완료했습니다.<br>
-<br>
+첫번째 **Code 완성** 기능을 완료했습니다.<br><br>
+
 ### 1.3 Copilot Suggestions 기능 설정
 이번에는 코드상에서 바로 제안해주는 Inline 방식 대신, 별도 창을 띄워서 코드 제안을 받는 Copilot Suggestions기능을 살펴보겠습니다.<br>
 - 설정 창으로 이동합니다. `Ctrl + Shift + P`를 누르면 상단에 명령 팔레트가 열립니다.<br>
