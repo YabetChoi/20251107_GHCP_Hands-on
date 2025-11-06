@@ -95,9 +95,9 @@ Copilot Chat에 다음과 같이 요청해봅니다.<br>
 
 
 
-## 추가) Agent 모드를 실습해보겠습니다.
-- 새로운 Copilot Chat창을 열고 봅니다.<br>
-- Chat모드에서 Agent를 선택합니다.<br>
+## Copilot Chat의 Agent 모드를 실습해보겠습니다.
+- 새로운 Copilot Chat창을 열어 봅니다.(이미 열려있는 Chat창이라면, 상단의 **+**버튼으로 새롭게 시작)<br>
+- Chat모드는 **Agent**를 선택합니다.<br>
 <img width="187" height="411" alt="image" src="https://github.com/user-attachments/assets/1896e79b-40d4-4214-8319-2fcd004dab78" /><br>
 - Agent 모드는 보다 **복잡한 작업**을 **자율적으로 수행** 할수 있습니다. AI는 작업이 완료될 때까지 코드를 단계별로 실행하도록 가이드를 해줍니다.<br>
 - 아주 간단하게 Agent모드를 동작시켜 봅시다. <br>
