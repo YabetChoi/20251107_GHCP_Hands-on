@@ -31,7 +31,7 @@
 - 채팅앱에 생성형 LLM을 통해 답변을 받도록 기능을 추가합니다.
 - 음성 인식 기능과 음성 출력 기능을 추가합니다.
 
-## [Task 4](/Task4/README.md) : MCP 서버 연동하기
+## [Task 4](/Task4/readme.md) : MCP 서버 연동하기
 - MCP 가 무엇일까요 ?
 - Visual Studio Code 내 MCP 와 연동되는 Copilot Agent Mode 을 사용해 봅니다.
 - MCP 와 연동하는 AI Agent 를 만들어 봅니다.
